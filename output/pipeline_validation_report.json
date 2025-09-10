@@ -1,0 +1,242 @@
+{
+  "pipeline_tests": {
+    "url_discovery": {
+      "success": true,
+      "total_urls_found": 3,
+      "sample_urls": [
+        "https://www.mecsr.org/directory-shopping-centres/dalma-mall",
+        "https://www.mecsr.org/directory-shopping-centres/01-burda",
+        "https://www.mecsr.org/directory-shopping-centres/al-bahar-towers-shopping-centre"
+      ],
+      "test_urls_valid": true
+    }
+  },
+  "data_completeness": {
+    "test_results": [
+      {
+        "url": "https://www.mecsr.org/directory-shopping-centres/dalma-mall",
+        "success": true,
+        "data_completeness": {
+          "basic_info": {
+            "present": 2,
+            "total": 2,
+            "percentage": 100.0
+          },
+          "location": {
+            "present": 2,
+            "total": 2,
+            "percentage": 100.0
+          },
+          "property_details": {
+            "present": 1,
+            "total": 5,
+            "percentage": 20.0
+          },
+          "contact": {
+            "present": 0,
+            "total": 3,
+            "percentage": 0.0
+          },
+          "content": {
+            "present": 1,
+            "total": 1,
+            "percentage": 100.0
+          },
+          "external_links": {
+            "present": 1,
+            "total": 1,
+            "percentage": 100.0
+          },
+          "images": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "tenants": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "metadata": {
+            "present": 0,
+            "total": 2,
+            "percentage": 0.0
+          },
+          "overall": {
+            "present": 7,
+            "total": 18,
+            "percentage": 38.88888888888889
+          }
+        },
+        "extraction_time": null,
+        "page_size": 518027
+      },
+      {
+        "url": "https://www.mecsr.org/directory-shopping-centres/01-burda",
+        "success": true,
+        "data_completeness": {
+          "basic_info": {
+            "present": 2,
+            "total": 2,
+            "percentage": 100.0
+          },
+          "location": {
+            "present": 0,
+            "total": 2,
+            "percentage": 0.0
+          },
+          "property_details": {
+            "present": 0,
+            "total": 5,
+            "percentage": 0.0
+          },
+          "contact": {
+            "present": 0,
+            "total": 3,
+            "percentage": 0.0
+          },
+          "content": {
+            "present": 1,
+            "total": 1,
+            "percentage": 100.0
+          },
+          "external_links": {
+            "present": 1,
+            "total": 1,
+            "percentage": 100.0
+          },
+          "images": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "tenants": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "metadata": {
+            "present": 0,
+            "total": 2,
+            "percentage": 0.0
+          },
+          "overall": {
+            "present": 4,
+            "total": 18,
+            "percentage": 22.22222222222222
+          }
+        },
+        "extraction_time": null,
+        "page_size": 495725
+      },
+      {
+        "url": "https://www.mecsr.org/directory-shopping-centres/al-bahar-towers-shopping-centre",
+        "success": true,
+        "data_completeness": {
+          "basic_info": {
+            "present": 2,
+            "total": 2,
+            "percentage": 100.0
+          },
+          "location": {
+            "present": 0,
+            "total": 2,
+            "percentage": 0.0
+          },
+          "property_details": {
+            "present": 0,
+            "total": 5,
+            "percentage": 0.0
+          },
+          "contact": {
+            "present": 0,
+            "total": 3,
+            "percentage": 0.0
+          },
+          "content": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "external_links": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "images": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "tenants": {
+            "present": 0,
+            "total": 1,
+            "percentage": 0.0
+          },
+          "metadata": {
+            "present": 0,
+            "total": 2,
+            "percentage": 0.0
+          },
+          "overall": {
+            "present": 2,
+            "total": 18,
+            "percentage": 11.11111111111111
+          }
+        },
+        "extraction_time": null,
+        "page_size": 201760
+      }
+    ],
+    "overall_success_rate": 1.0,
+    "average_completeness": 24.074074074074076
+  },
+  "performance_metrics": {
+    "batch_performance": {
+      "1": {
+        "duration": 17.555494785308838,
+        "successful": 3,
+        "total": 3,
+        "throughput": 0.17088666749002845,
+        "success_rate": 1.0
+      },
+      "3": {
+        "duration": 7.244947910308838,
+        "successful": 3,
+        "total": 3,
+        "throughput": 0.41408165208907843,
+        "success_rate": 1.0
+      },
+      "5": {
+        "duration": 7.493597030639648,
+        "successful": 3,
+        "total": 3,
+        "throughput": 0.4003417834897805,
+        "success_rate": 1.0
+      },
+      "10": {
+        "duration": 7.138329744338989,
+        "successful": 3,
+        "total": 3,
+        "throughput": 0.420266379873966,
+        "success_rate": 1.0
+      }
+    },
+    "optimal_batch_size": 10,
+    "max_throughput": 0.420266379873966
+  },
+  "error_analysis": {
+    "invalid_url_handling": {
+      "total_tested": 3,
+      "successful": 2,
+      "failed": 0,
+      "error_rate": 0.0
+    },
+    "resume_capability": {
+      "partial_processing": 2,
+      "resume_processing": 2,
+      "total_successful": 4,
+      "resume_success_rate": 1.0
+    }
+  }
+}
