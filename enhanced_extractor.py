@@ -139,50 +139,146 @@ class EnhancedDataExtractor:
                     break
 
         if post_details_section:
-            # Extract all key-value pairs from the section
+            # Method 1: Extract using structured HTML parsing (handles expansion automatically)
+            structured_details = self._extract_structured_table_data(post_details_section)
+            property_details.update(structured_details)
+
+            # Method 2: Fallback to regex patterns for any missed fields
             text_content = post_details_section.get_text()
+            fallback_patterns = self._get_fallback_regex_patterns()
 
-            # Look for specific patterns in the Post Details
-            patterns = {
-                'property_360_link': r'Property 360 View Link[:\s]*([^\n]+)',
-                'type_of_property': r'Type of Property[:\s]*([^\n]+)',
-                'mall_size_sqm': r'Mall Size in SQM[:\s]*([0-9,]+)',
-                'gla_sqm': r'GLA in SQM[:\s]*([0-9,]+)',
-                'levels': r'No\.?\s*of\s*Level[:\s]*([0-9]+)',
-                'car_parks': r'No\.?\s*of\s*Car\s*Park[:\s]*([0-9,]+)',
-                'retail_outlets': r'No\.?\s*Retail\s*Outlets?[:\s]*([0-9,]+)',
-                'annual_footfall': r'Annual\s*Footfall[:\s]*([0-9,]+)',
-                'year_built': r'Year\s*Built[:\s]*([^\n]+)',
-                'owner_company': r'Owner\s*Company\s*Name[:\s]*([^\n]+)',
-                'managing_agent': r'Managing\s*Agent[:\s]*([^\n]+)',
-                'leasing_agent': r'Leasing\s*Agent[:\s]*([^\n]+)',
-                'main_contractor': r'Main\s*Contractor[:\s]*([^\n]+)',
-                'retail_solutions_provider': r'Retail\s*Solutions\s*Provider[:\s]*([^\n]+)'
-            }
-
-            for key, pattern in patterns.items():
-                match = re.search(pattern, text_content, re.IGNORECASE | re.MULTILINE)
-                if match:
-                    value = match.group(1).strip()
-                    if value and not value.startswith('http'):  # Skip URLs for now
-                        # Clean up numeric values
-                        if key in ['mall_size_sqm', 'gla_sqm', 'levels', 'car_parks', 'retail_outlets', 'annual_footfall']:
-                            value = re.sub(r'[^\d]', '', value)
-                            if value.isdigit():
-                                value = int(value)
-                        property_details[key] = value
-
-            # Extract anchor tenants from the tenant list in Post Details
-            anchor_tenants_match = re.search(r'Anchor/?Notable\s*Tenants?[:\s]*(.+?)(?:\n|$)', text_content, re.IGNORECASE | re.DOTALL)
-            if anchor_tenants_match:
-                tenants_text = anchor_tenants_match.group(1).strip()
-                # Split by common separators
-                tenants = re.split(r'[,&]', tenants_text)
-                tenants = [t.strip() for t in tenants if t.strip() and len(t.strip()) > 2]
-                if tenants:
-                    property_details['anchor_tenants'] = tenants[:10]  # Limit to first 10
+            for key, pattern in fallback_patterns.items():
+                if key not in property_details:  # Only use fallback if not already captured
+                    match = re.search(pattern, text_content, re.IGNORECASE | re.MULTILINE)
+                    if match:
+                        value = match.group(1).strip()
+                        if value and not value.startswith('http'):  # Skip URLs for now
+                            # Clean up numeric values
+                            if key in ['mall_size_sqm', 'gla_sqm', 'levels', 'car_parks', 'retail_outlets', 'annual_footfall']:
+                                value = re.sub(r'[^\d]', '', value)
+                                if value.isdigit():
+                                    value = int(value)
+                            property_details[key] = value
 
         return property_details
+
+    def _extract_structured_table_data(self, post_details_section) -> Dict[str, Any]:
+        """
+        Extract property details using structured HTML parsing.
+        This method automatically handles table expansion by parsing the HTML structure directly.
+        """
+        structured_data = {}
+
+        # Find all table-view-group divs (each represents a field)
+        table_groups = post_details_section.find_all('div', class_=lambda x: x and 'table-view-group' in str(x))
+
+        for group in table_groups:
+            try:
+                # Extract field name from the bold div
+                field_name_div = group.find('div', class_=lambda x: x and 'bold' in str(x))
+                if not field_name_div:
+                    continue
+
+                field_name = field_name_div.get_text(strip=True)
+
+                # Extract field value from the span elements
+                value_div = group.find('div', class_=lambda x: x and 'col-sm-8' in str(x))
+                if not value_div:
+                    continue
+
+                # Get the actual value from various span types
+                value = None
+
+                # Try different value extraction methods based on HTML structure
+                if value_div.find('a', href=True):
+                    # Handle URLs (like Property 360 View Link)
+                    link = value_div.find('a', href=True)
+                    if link:
+                        value = link.get('href')
+                        if value and not value.startswith('http'):
+                            value = f"https://www.mecsr.org{value}"
+                elif value_div.find('span'):
+                    # Handle span values
+                    span = value_div.find('span')
+                    if span:
+                        value = span.get_text(strip=True)
+                        # Handle special cases
+                        if 'select' in str(span.get('class', [])):
+                            value = span.get_text(strip=True)
+                        elif 'number' in str(span.get('class', [])):
+                            # Clean numeric values
+                            numeric_value = re.sub(r'[^\d]', '', value)
+                            if numeric_value.isdigit():
+                                value = int(numeric_value)
+                        elif 'textbox' in str(span.get('class', [])):
+                            value = span.get_text(strip=True)
+
+                if value and field_name:
+                    # Convert field name to snake_case key
+                    key = self._field_name_to_key(field_name)
+                    structured_data[key] = value
+
+            except Exception as e:
+                # Skip problematic groups and continue
+                continue
+
+        return structured_data
+
+    def _field_name_to_key(self, field_name: str) -> str:
+        """Convert human-readable field names to snake_case keys"""
+        # Remove icons and special characters
+        clean_name = re.sub(r'<[^>]+>', '', field_name)  # Remove HTML tags
+        clean_name = re.sub(r'[^\w\s]', '', clean_name)  # Remove special chars
+        clean_name = clean_name.strip()
+
+        # Handle specific field name mappings
+        field_mappings = {
+            'Property 360 View Link': 'property_360_link',
+            'Type of Property': 'type_of_property',
+            'Mall Size in SQM': 'mall_size_sqm',
+            'GLA in SQM': 'gla_sqm',
+            'No of Level': 'levels',
+            'No of Car Parks': 'car_parks',
+            'No Retail Outlets': 'retail_outlets',
+            'Annual Footfall EstimatedActual': 'annual_footfall',
+            'Year Built': 'year_built',
+            'AnchorNotable Tenants': 'anchor_tenants',
+            'Owner Company Name': 'owner_company',
+            'Managing Agent Company Name': 'managing_agent',
+            'Leasing Agent Company Name': 'leasing_agent',
+            'Main Contractor': 'main_contractor',
+            'Retail Solutions Provider Service Provider Footfall Retail Analytics Technology Others': 'retail_solutions_provider'
+        }
+
+        # Try exact match first
+        if clean_name in field_mappings:
+            return field_mappings[clean_name]
+
+        # Fallback to automatic conversion
+        key = clean_name.lower().replace(' ', '_')
+        key = re.sub(r'_+', '_', key)  # Remove multiple underscores
+        key = key.strip('_')  # Remove leading/trailing underscores
+
+        return key
+
+    def _get_fallback_regex_patterns(self) -> Dict[str, str]:
+        """Get fallback regex patterns for any fields missed by structured parsing"""
+        return {
+            'property_360_link': r'Property 360 View Link[:\s]*([^\n]+)',
+            'type_of_property': r'Type of Property[:\s]*([^\n]+)',
+            'mall_size_sqm': r'Mall Size in SQM[:\s]*([0-9,]+)',
+            'gla_sqm': r'GLA in SQM[:\s]*([0-9,]+)',
+            'levels': r'No\.?\s*of\s*Level[:\s]*([0-9]+)',
+            'car_parks': r'No\.?\s*of\s*Car\s*Park[:\s]*([0-9,]+)',
+            'retail_outlets': r'No\.?\s*Retail\s*Outlets?[:\s]*([0-9,]+)',
+            'annual_footfall': r'Annual\s*Footfall[:\s]*([0-9,]+)',
+            'year_built': r'Year\s*Built[:\s]*([^\n]+)',
+            'owner_company': r'Owner\s*Company\s*Name[:\s]*([^\n]+)',
+            'managing_agent': r'Managing\s*Agent[:\s]*([^\n]+)',
+            'leasing_agent': r'Leasing\s*Agent[:\s]*([^\n]+)',
+            'main_contractor': r'Main\s*Contractor[:\s]*([^\n]+)',
+            'retail_solutions_provider': r'Retail\s*Solutions\s*Provider[:\s]*([^\n]+)'
+        }
 
     def _extract_location_data_enhanced(self, soup: BeautifulSoup) -> Dict[str, Any]:
         """Enhanced location data extraction"""
@@ -469,3 +565,178 @@ class EnhancedDataExtractor:
         total_weight += 0.4
 
         return score / total_weight if total_weight > 0 else 0.0
+
+    def extract_streamlined_mall_data(self, html: str, url: str) -> Dict[str, Any]:
+        """
+        Extract only essential mall data in streamlined format.
+        Produces clean JSON with only the requested fields.
+        """
+        soup = BeautifulSoup(html, 'lxml')
+
+        # Extract core fields
+        mall_data = {
+            'url': url,
+            'name': self._extract_mall_name_enhanced(soup),
+            'external_url': self._extract_filtered_external_url(soup),
+            'property_details': self._extract_property_details_comprehensive(soup),
+            'location': self._extract_location_for_streamlined(soup),
+            'tenants': self._extract_clean_tenant_data(soup),
+            'first_image': self._extract_first_image_url(soup)
+        }
+
+        # Add parsed status fields
+        mall_type, development_status = self._parse_status_fields(soup)
+        mall_data['mall_type'] = mall_type
+        mall_data['development_status'] = development_status
+
+        # Add total tenants count
+        mall_data['total_tenants'] = len(mall_data['tenants']) if mall_data['tenants'] else 0
+
+        return mall_data
+
+    def _parse_status_fields(self, soup: BeautifulSoup) -> tuple[str, str]:
+        """Parse status field into mall_type and development_status"""
+        mall_type = None
+        development_status = None
+
+        # Get the combined status string
+        status_elem = soup.find('span', class_=lambda x: x and 'badge' in str(x))
+        if status_elem:
+            status_text = status_elem.get_text(strip=True)
+
+            # Split on the separator
+            if ' - ' in status_text:
+                parts = status_text.split(' - ')
+                if len(parts) == 2:
+                    mall_type = parts[0].strip()
+                    development_status = parts[1].strip()
+            else:
+                # Fallback: try to extract from property type
+                type_elem = soup.find('div', class_=lambda x: x and 'pull-left' in str(x))
+                if type_elem:
+                    type_text = type_elem.get_text(strip=True)
+                    if 'Super Regional' in type_text:
+                        mall_type = 'Super Regional Centre'
+                    elif 'Regional' in type_text:
+                        mall_type = 'Regional Centre'
+                    elif 'Community' in type_text:
+                        mall_type = 'Community Centre'
+
+                # Assume existing if we can't determine
+                if not development_status:
+                    development_status = 'Existing Mall'
+
+        return mall_type, development_status
+
+    def _extract_filtered_external_url(self, soup: BeautifulSoup) -> Optional[str]:
+        """Extract only the mall's official website, filter out social media and Google"""
+        # Look for links in contact sections or with specific attributes
+        website_links = soup.find_all('a', href=lambda x: x and x.startswith('http') and 'mecsr.org' not in x)
+
+        candidates = []
+        for link in website_links:
+            url = link.get('href')
+            if url:
+                # Skip social media and Google services
+                skip_domains = [
+                    'facebook.com', 'twitter.com', 'instagram.com', 'linkedin.com',
+                    'youtube.com', 'google.com', 'maps.google.com', 'x.com',
+                    'ik.imagekit.io', 'imagekit.io'  # Skip image hosting services
+                ]
+
+                # Skip if it's in the skip domains
+                if any(domain in url.lower() for domain in skip_domains):
+                    continue
+
+                # Skip URLs that are likely images or files
+                if any(ext in url.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp']):
+                    continue
+
+                # Skip very long URLs (likely tracking/redirect URLs)
+                if len(url) > 300:
+                    continue
+
+                # Prioritize URLs that look like official websites
+                link_text = link.get_text(strip=True).lower()
+                parent_text = link.parent.get_text(strip=True).lower() if link.parent else ""
+
+                # Look for website-related keywords in link text or parent
+                website_keywords = ['website', 'official', 'visit', 'www.', '.com', '.net', '.org']
+
+                if any(keyword in link_text or keyword in parent_text or keyword in url.lower()
+                       for keyword in website_keywords):
+                    return url  # High priority match
+
+                # Collect other potential website URLs
+                candidates.append(url)
+
+        # Return first candidate if no high-priority match
+        return candidates[0] if candidates else None
+
+    def _extract_location_for_streamlined(self, soup: BeautifulSoup) -> Dict[str, Any]:
+        """Extract location data for streamlined format"""
+        location_data = {}
+
+        # Extract coordinates from JavaScript
+        scripts = soup.find_all('script')
+        for script in scripts:
+            script_text = script.get_text() if script.get_text() else ''
+            lat_match = re.search(r'parseFloat\(([0-9.-]+)\)', script_text)
+            lng_match = re.search(r'parseFloat\(([0-9.-]+)\)', script_text[script_text.find('parseFloat') + 1:] if 'parseFloat' in script_text else '')
+
+            if lat_match and lng_match:
+                try:
+                    location_data['latitude'] = float(lat_match.group(1))
+                    location_data['longitude'] = float(lng_match.group(1))
+                    break
+                except ValueError:
+                    continue
+
+        # Extract address
+        address_elem = soup.find('span', class_=lambda x: x and 'fa-map-marker' in str(x))
+        if address_elem:
+            address_text = address_elem.get_text(strip=True)
+            if len(address_text) > 10:
+                location_data['address'] = address_text
+
+        return location_data
+
+    def _extract_clean_tenant_data(self, soup: BeautifulSoup) -> List[Dict[str, Any]]:
+        """Extract tenant data with only name and category (no search URLs)"""
+        tenant_data = []
+
+        # Extract tenant links (the main tenant directory)
+        tenant_links = soup.find_all('a', href=lambda x: x and '?q=' in str(x))
+        tenants = []
+
+        for link in tenant_links:
+            tenant_name = link.get_text(strip=True)
+            search_url = link.get('href')
+
+            if tenant_name and len(tenant_name) > 2 and search_url:
+                tenants.append({
+                    'name': tenant_name,
+                    'category': self._categorize_tenant(tenant_name)
+                })
+
+        return tenants
+
+    def _extract_first_image_url(self, soup: BeautifulSoup) -> Optional[str]:
+        """Extract only the first property image URL"""
+        img_elements = soup.find_all('img')
+
+        for img in img_elements:
+            src = img.get('src') or img.get('data-src')
+            alt = img.get('alt', '')
+
+            if src and not src.startswith('data:'):
+                # Convert relative URLs to absolute
+                if not src.startswith('http'):
+                    src = f"https://www.mecsr.org{src}"
+
+                # Skip logos and icons
+                if not any(skip_word in alt.lower() or skip_word in src.lower()
+                          for skip_word in ['logo', 'icon', 'banner', 'button']):
+                    return src
+
+        return None

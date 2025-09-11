@@ -3,7 +3,7 @@ DetailExtractor component for MECSR directory scraping.
 Extracts individual mall data from HTML pages, focusing on links, coordinates, and detailed property information.
 """
 
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional
 import re
 import asyncio
 from bs4 import BeautifulSoup
@@ -31,13 +31,14 @@ class DetailExtractor:
         if not html:
             return []
 
+
         soup = BeautifulSoup(html, 'html.parser')
         links = []
 
         # Find all links to mall detail pages
         for link in soup.find_all('a', href=True):
             href = link.get('href')
-            if href and '/directory-shopping-centres/' in href:
+            if href and '/directory-shopping-centres/' in href and href != '/directory-shopping-centres/':
                 # Keep relative URLs for consistency
                 if href.startswith('http'):
                     # Convert to relative URL
@@ -587,4 +588,85 @@ class DetailExtractor:
 
         final_urls = sorted(list(all_mall_urls))
         print(f"🎯 Collected {len(final_urls)} unique mall URLs total")
+        return final_urls
+
+    async def collect_mall_urls_async(self, num_pages: int = 15, base_url: str = "https://www.mecsr.org/directory-shopping-centres", max_concurrent: int = 5) -> List[str]:
+        """
+        Collect mall URLs from the first N pages of MECSR directory asynchronously
+
+        Args:
+            num_pages: Number of pages to scrape (default 15)
+            base_url: Base directory URL to start from
+            max_concurrent: Maximum number of concurrent requests
+
+        Returns:
+            List of unique mall URLs from the specified number of pages
+        """
+        print(f"🔍 Asynchronously collecting mall URLs from first {num_pages} pages...")
+        print(f"⚡ Using {max_concurrent} concurrent requests")
+
+        crawler = PaginationCrawler()
+        all_mall_urls = set()
+        semaphore = asyncio.Semaphore(max_concurrent)
+
+        async def scrape_single_page(page_num: int) -> List[str]:
+            """Scrape a single page and return mall URLs"""
+            async with semaphore:
+                if page_num == 1:
+                    page_url = base_url
+                else:
+                    page_url = f"{base_url}?page={page_num}"
+
+                print(f"  📄 Scraping page {page_num}: {page_url}")
+
+                try:
+                    result = await crawler.crawl_single_page(page_url)
+
+                    if not result or not result.get('success'):
+                        print(f"    ❌ Failed to fetch page {page_num}")
+                        return []
+
+                    html = result['html']
+                    mall_links = self.extract_mall_links(html)
+
+                    if not mall_links:
+                        print(f"    ⚠️ No mall links found on page {page_num}")
+                        return []
+
+                    # Convert to absolute URLs
+                    absolute_urls = []
+                    for link in mall_links:
+                        if not link.startswith('http'):
+                            full_url = f"https://www.mecsr.org{link}"
+                        else:
+                            full_url = link
+                        absolute_urls.append(full_url)
+
+                    print(f"    ✅ Found {len(mall_links)} malls on page {page_num}")
+                    return absolute_urls
+
+                except Exception as e:
+                    print(f"    ❌ Error scraping page {page_num}: {e}")
+                    return []
+
+        # Create tasks for all pages
+        tasks = [scrape_single_page(page_num) for page_num in range(1, num_pages + 1)]
+
+        # Execute all tasks concurrently
+        print(f"🚀 Starting concurrent scraping of {num_pages} pages...")
+        page_results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # Process results and collect unique URLs
+        for i, result in enumerate(page_results):
+            page_num = i + 1
+            if isinstance(result, Exception):
+                print(f"❌ Page {page_num} had an exception: {result}")
+                continue
+            elif isinstance(result, list):
+                for url in result:
+                    all_mall_urls.add(url)
+
+        final_urls = sorted(list(all_mall_urls))
+        print(f"🎯 Collected {len(final_urls)} unique mall URLs from {num_pages} pages")
+        print(f"📊 Average malls per page: {len(final_urls) / num_pages:.1f}")
         return final_urls

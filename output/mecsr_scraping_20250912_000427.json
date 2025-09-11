@@ -1,0 +1,4852 @@
+{
+  "metadata": {
+    "scraped_at": "2025-09-12T00:04:27.310046",
+    "total_malls": 100,
+    "successful_extractions": 100,
+    "scraper_version": "simple_v1.0"
+  },
+  "malls": [
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/01-burda",
+      "name": "01 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/80e486cd229f6f0470bd355e5d046834.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 163107,
+        "gla_sqm": 55127,
+        "retail_outlets": "116",
+        "year_built": "2019 Nov",
+        "anchor_tenants": "Beymen, Vakko, Boyner, Migros, LCW"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "Beymen",
+          "category": "other"
+        },
+        {
+          "name": "Vakko",
+          "category": "other"
+        },
+        {
+          "name": "Boyner",
+          "category": "other"
+        },
+        {
+          "name": "Migros",
+          "category": "other"
+        },
+        {
+          "name": "LCW",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.803469181060791,
+        "scraped_at": "2025-09-12T00:00:56.766000"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/06-mall",
+      "name": "06 Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/909658b2d3a67bb5b8b8c3993d3a0ccb.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 36840,
+        "gla_sqm": 16000,
+        "levels": 3,
+        "car_parks": "50",
+        "retail_outlets": "498",
+        "year_built": "2018",
+        "anchor_tenants": "Cinema, Spinneys, Fitness First & Funblock",
+        "owner_company": "Alef Group LLC",
+        "developer_company_name": "Alef Group LLC",
+        "managing_agent": "Alef Group LLC",
+        "leasing_agent": "Alef Group LLC",
+        "main_architects": "Schwitzke & Partner",
+        "main_consultant": "WSP Middle East",
+        "main_contractor": "Omis Contracting LLC"
+      },
+      "location": {
+        "latitude": 25.2899867,
+        "longitude": 55.4974664
+      },
+      "tenants": [
+        {
+          "name": "Cinema",
+          "category": "other"
+        },
+        {
+          "name": "Spinneys",
+          "category": "other"
+        },
+        {
+          "name": "Fitness First & Funblock",
+          "category": "sports"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 1.9178309440612793,
+        "scraped_at": "2025-09-12T00:00:55.978231"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/10-burda",
+      "name": "10 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/c1d49cb5688fde618c9c07c476f33583.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 120000,
+        "gla_sqm": 41999,
+        "retail_outlets": "135",
+        "year_built": "2018",
+        "anchor_tenants": "DECATHLON, MediaMarkt, Boyner, Migros, LC Waikiki",
+        "owner_company": "Esas Gayrimenkul"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "DECATHLON",
+          "category": "other"
+        },
+        {
+          "name": "MediaMarkt",
+          "category": "other"
+        },
+        {
+          "name": "Boyner",
+          "category": "other"
+        },
+        {
+          "name": "Migros",
+          "category": "other"
+        },
+        {
+          "name": "LC Waikiki",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.556603193283081,
+        "scraped_at": "2025-09-12T00:00:57.546484"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/120-al-jufnain",
+      "name": "120 - Al Jufnain",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/25544813d6c229199564c6eef337df13.png",
+      "property_details": {
+        "type_of_property": "Metro/Airport/Major Transport Hubs",
+        "mall_size_sqm": 1000,
+        "gla_sqm": 824,
+        "levels": 1,
+        "car_parks": "30",
+        "retail_outlets": "12",
+        "year_built": "2021",
+        "anchor_tenants": "KFC, Bastah Majan as Drive Thrus",
+        "owner_company": "Bayan Investment House LLC",
+        "developer_company_name": "Bayan Investment House LLC",
+        "managing_agent": "Asawer Real Estate",
+        "leasing_agent": "Asawer Real Estate",
+        "main_architects": "Architecture City",
+        "main_contractor": "Rawabi Bousher",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "Bayan Investment House LLC",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 23.5202316,
+        "longitude": 58.1978353
+      },
+      "tenants": [
+        {
+          "name": "KFC",
+          "category": "food"
+        },
+        {
+          "name": "Bastah Majan as Drive Thrus",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/a4cb76a6a36099ce491fc6447289a4ea.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 3.162156820297241,
+        "scraped_at": "2025-09-12T00:01:03.713442"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/1364-diplomatic-quarter-riyadh",
+      "name": "1364, Diplomatic Quarter, Riyadh",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/09dc27a8c4ef1a64a4c22ae299519a4a.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 38282,
+        "gla_sqm": 33177,
+        "levels": 2,
+        "car_parks": "1264",
+        "retail_outlets": "37",
+        "year_built": "2023",
+        "anchor_tenants": "Muvi Cinema, Brass Monkey, Akira Back, Offices",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 24.6869655,
+        "longitude": 46.6304029
+      },
+      "tenants": [
+        {
+          "name": "Muvi Cinema",
+          "category": "other"
+        },
+        {
+          "name": "Brass Monkey",
+          "category": "other"
+        },
+        {
+          "name": "Akira Back",
+          "category": "other"
+        },
+        {
+          "name": "Offices",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/09dc27a8c4ef1a64a4c22ae299519a4a.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.592919111251831,
+        "scraped_at": "2025-09-12T00:01:01.390865"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/14-burda",
+      "name": "14 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/27bcde690af7e10948b6bebb76347e22.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 36000,
+        "gla_sqm": 33932,
+        "retail_outlets": "106",
+        "year_built": "2025 Nov",
+        "anchor_tenants": "LCWaikiki, Adidas,Gratis, Migros",
+        "owner_company": "Esas Gayrimenkul"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "LCWaikiki",
+          "category": "other"
+        },
+        {
+          "name": "Adidas",
+          "category": "sports"
+        },
+        {
+          "name": "Gratis",
+          "category": "other"
+        },
+        {
+          "name": "Migros",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.8521783351898193,
+        "scraped_at": "2025-09-12T00:01:02.504509"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/17-burda",
+      "name": "17 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/0b6dcc64fccaaa5739479c0d15eb5dd0.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 121000,
+        "gla_sqm": 34905,
+        "car_parks": "1000",
+        "retail_outlets": "111",
+        "year_built": "2015",
+        "anchor_tenants": "H&M, Boyner, LCW, Teknosa, Koton",
+        "owner_company": "Esas Gayrimenkul"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Boyner",
+          "category": "other"
+        },
+        {
+          "name": "LCW",
+          "category": "other"
+        },
+        {
+          "name": "Teknosa",
+          "category": "other"
+        },
+        {
+          "name": "Koton",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.6179940700531006,
+        "scraped_at": "2025-09-12T00:01:06.947732"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/28-mall",
+      "name": "28 Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/7056a618908923ddb90fe010d572bc85.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 65700,
+        "gla_sqm": 50000,
+        "levels": 3,
+        "retail_outlets": "50",
+        "year_built": "2012",
+        "anchor_tenants": "Cinema Plus, Music Gallery, Sel Home, Zara, Mango",
+        "owner_company": "Pasha Holding LLC",
+        "managing_agent": "PASHA Construction",
+        "leasing_agent": "PASHA Construction",
+        "main_contractor": "Northwest Construction"
+      },
+      "location": {
+        "latitude": 40.3790787,
+        "longitude": 49.8467656
+      },
+      "tenants": [
+        {
+          "name": "Cinema Plus",
+          "category": "other"
+        },
+        {
+          "name": "Music Gallery",
+          "category": "other"
+        },
+        {
+          "name": "Sel Home",
+          "category": "other"
+        },
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Mango",
+          "category": "fashion"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/0fa268a4f10439897715c0d47abb46d4.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 2.216297149658203,
+        "scraped_at": "2025-09-12T00:01:08.076131"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/360-kuwait",
+      "name": "360 Kuwait",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/6c74a429ad3dbd28ee5b7cc8e6d6176e.jpeg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 422000,
+        "gla_sqm": 130000,
+        "levels": 8,
+        "car_parks": "4,400",
+        "retail_outlets": "260",
+        "year_built": "2009 Jul, 2020 Q1 (Exp)",
+        "anchor_tenants": "Bloomingdale's, Cartier, Prada, Gucci, Bottega Veneta, Burberry, Miu Miu,Omega, Marks & Spencer,  Toys R Us, Cinescape Cinemas, Carrefour, Infunity, IKEA",
+        "owner_company": "Tamdeen Group",
+        "developer_company_name": "Tamdeen Group",
+        "managing_agent": "Tamdeen Mall Management  K.S.C.C",
+        "leasing_agent": "Tamdeen Group",
+        "main_architects": "Callison RTKL, USA",
+        "main_consultant": "Sq.Ft Consultants, Dubai",
+        "main_contractor": "Ahmadiah Contracting & Trading"
+      },
+      "location": {
+        "latitude": 29.2660313,
+        "longitude": 47.8625634
+      },
+      "tenants": [
+        {
+          "name": "Bloomingdale's",
+          "category": "other"
+        },
+        {
+          "name": "Cartier",
+          "category": "other"
+        },
+        {
+          "name": "Prada",
+          "category": "other"
+        },
+        {
+          "name": "Gucci",
+          "category": "other"
+        },
+        {
+          "name": "Bottega Veneta",
+          "category": "other"
+        },
+        {
+          "name": "Burberry",
+          "category": "other"
+        },
+        {
+          "name": "Miu Miu",
+          "category": "other"
+        },
+        {
+          "name": "Omega",
+          "category": "other"
+        },
+        {
+          "name": "Marks & Spencer",
+          "category": "other"
+        },
+        {
+          "name": "Toys R Us",
+          "category": "other"
+        },
+        {
+          "name": "Cinescape Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Carrefour",
+          "category": "hypermarket"
+        },
+        {
+          "name": "Infunity",
+          "category": "other"
+        },
+        {
+          "name": "IKEA",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/fb63c4b01036beff932a2eb6118336da.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 14,
+      "_scraping_metadata": {
+        "response_time": 2.2394111156463623,
+        "scraped_at": "2025-09-12T00:01:09.266902"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/39-burda",
+      "name": "39 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/7dee3591e2408c380020009438b8c12c.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 42000,
+        "gla_sqm": 27854,
+        "retail_outlets": "90",
+        "year_built": "2018 Apr",
+        "anchor_tenants": "LCWaikiki, Defacto, Koton, Teknosa, Flo",
+        "owner_company": "Esas Gayrimenkul"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "LCWaikiki",
+          "category": "other"
+        },
+        {
+          "name": "Defacto",
+          "category": "other"
+        },
+        {
+          "name": "Koton",
+          "category": "other"
+        },
+        {
+          "name": "Teknosa",
+          "category": "other"
+        },
+        {
+          "name": "Flo",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.6645047664642334,
+        "scraped_at": "2025-09-12T00:01:11.825183"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/41-burda",
+      "name": "41 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/ebd005d7dca33db132b0e2d09e528689.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 60996,
+        "gla_sqm": 58062,
+        "retail_outlets": "160",
+        "year_built": "2016",
+        "anchor_tenants": "Boyner, H&M, LCW, Migros, Media Markt",
+        "owner_company": "Esas Gayrimenkul"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "Boyner",
+          "category": "other"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "LCW",
+          "category": "other"
+        },
+        {
+          "name": "Migros",
+          "category": "other"
+        },
+        {
+          "name": "Media Markt",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 2.444169044494629,
+        "scraped_at": "2025-09-12T00:01:18.977931"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/67-burda",
+      "name": "67 Burda",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/0585d70045d9bb4cd1fe7bc18849e1a3.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 55000,
+        "gla_sqm": 21842,
+        "retail_outlets": "75",
+        "year_built": "2009 Mar",
+        "anchor_tenants": "Teknosa, Migros, LCW, Vatan Bilgisayar, Evidea",
+        "owner_company": "Esas Gayrimenkul"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "Teknosa",
+          "category": "other"
+        },
+        {
+          "name": "Migros",
+          "category": "other"
+        },
+        {
+          "name": "LCW",
+          "category": "other"
+        },
+        {
+          "name": "Vatan Bilgisayar",
+          "category": "other"
+        },
+        {
+          "name": "Evidea",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.9922122955322266,
+        "scraped_at": "2025-09-12T00:01:17.809074"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abc-achrafieh",
+      "name": "Abc Achrafieh",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/80dbd5191cbd7934e4770941231e83ef.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 127000,
+        "gla_sqm": 41999,
+        "levels": 8,
+        "car_parks": "1500",
+        "retail_outlets": "170",
+        "year_built": "2003",
+        "anchor_tenants": "ABC Department Store, Aizone, H&M, Grand Cinemas, Zara, Victoria's Secret",
+        "owner_company": "ABC SAL",
+        "managing_agent": "ABC SAL",
+        "leasing_agent": "ABC SAL",
+        "main_architects": "BDP",
+        "main_contractor": "MAN"
+      },
+      "location": {
+        "latitude": 33.8886451,
+        "longitude": 35.520116
+      },
+      "tenants": [
+        {
+          "name": "ABC Department Store",
+          "category": "other"
+        },
+        {
+          "name": "Aizone",
+          "category": "other"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Grand Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Victoria's Secret",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/fd475ee05f0ec760f305463f874e0b11.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.6464622020721436,
+        "scraped_at": "2025-09-12T00:01:16.606435"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abc-dbayeh",
+      "name": "Abc Dbayeh",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/fd475ee05f0ec760f305463f874e0b11.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 44274,
+        "gla_sqm": 24095,
+        "levels": 6,
+        "car_parks": "1220",
+        "retail_outlets": "205",
+        "year_built": "1979",
+        "anchor_tenants": "Aizone, H&M, Virgin Megastore, Grand Cinemas, Aerosoles, Bugatti",
+        "owner_company": "ABC SAL",
+        "managing_agent": "ABC SAL",
+        "leasing_agent": "ABC SAL",
+        "main_architects": "Dolly Breidy",
+        "main_consultant": "A-Consult",
+        "main_contractor": "Mouawad-Edde & Magma"
+      },
+      "location": {
+        "latitude": 33.9267956,
+        "longitude": 35.5879059
+      },
+      "tenants": [
+        {
+          "name": "Aizone",
+          "category": "other"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Virgin Megastore",
+          "category": "other"
+        },
+        {
+          "name": "Grand Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Aerosoles",
+          "category": "other"
+        },
+        {
+          "name": "Bugatti",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/80dbd5191cbd7934e4770941231e83ef.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.6987230777740479,
+        "scraped_at": "2025-09-12T00:01:21.393241"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abc-verdun",
+      "name": "Abc Verdun",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/65535501b6b25f9018b5405de4b69699.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 150000,
+        "gla_sqm": 50000,
+        "levels": 11,
+        "car_parks": "1700",
+        "retail_outlets": "200",
+        "year_built": "2017",
+        "anchor_tenants": "ABC Department Store, Grand Cinemas, Aizone, Bershka, Zara, Adidas, Aldolb",
+        "owner_company": "Verdun Mall SAL",
+        "managing_agent": "ABC SAL",
+        "leasing_agent": "ABC SAL",
+        "main_architects": "Callison",
+        "main_consultant": "Khatib & Alami",
+        "main_contractor": "MAN"
+      },
+      "location": {
+        "latitude": 33.8842794,
+        "longitude": 35.4845502
+      },
+      "tenants": [
+        {
+          "name": "ABC Department Store",
+          "category": "other"
+        },
+        {
+          "name": "Grand Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Aizone",
+          "category": "other"
+        },
+        {
+          "name": "Bershka",
+          "category": "fashion"
+        },
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Adidas",
+          "category": "sports"
+        },
+        {
+          "name": "Aldolb",
+          "category": "fashion"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 1.6377651691436768,
+        "scraped_at": "2025-09-12T00:01:24.057534"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abdali-mall",
+      "name": "Abdali Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/2050767f4b798ac86be2328fbdcce68a.jpeg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 227000,
+        "gla_sqm": 63193,
+        "levels": 10,
+        "car_parks": "2400",
+        "retail_outlets": "163",
+        "year_built": "2016 Apr",
+        "anchor_tenants": "Bershka, H&M, Massimo Dutti, Prime Cinemas, C-Town, 442 Football Park, Black Skillet, Matalan",
+        "owner_company": "Abdali Mall Company",
+        "developer_company_name": "United Real Estate - Jordan",
+        "main_architects": "Laceco International",
+        "main_consultant": "Arabtech Jardaneh",
+        "main_contractor": "Habash Der",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "Gensler",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 31.96382169999999,
+        "longitude": 35.9084135
+      },
+      "tenants": [
+        {
+          "name": "Bershka",
+          "category": "fashion"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Massimo Dutti",
+          "category": "fashion"
+        },
+        {
+          "name": "Prime Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "C-Town",
+          "category": "other"
+        },
+        {
+          "name": "442 Football Park",
+          "category": "other"
+        },
+        {
+          "name": "Black Skillet",
+          "category": "other"
+        },
+        {
+          "name": "Matalan",
+          "category": "department_store"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 8,
+      "_scraping_metadata": {
+        "response_time": 1.6362109184265137,
+        "scraped_at": "2025-09-12T00:01:25.352245"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abou-hulifa-food-court",
+      "name": "Abou Hulifa Food Court",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/b719c7e6d41a54958fc3407a4703d266.jpg",
+      "property_details": {
+        "type_of_property": "Convenience Centre",
+        "gla_sqm": 2094,
+        "levels": 2,
+        "car_parks": "41",
+        "retail_outlets": "13",
+        "year_built": "2002",
+        "anchor_tenants": "Kababji,Burger King,Taco Bell, Pizza Hut, Dawat, Applebees",
+        "owner_company": "Al Tijaria Company",
+        "developer_company_name": "Al Tijaria Company",
+        "managing_agent": "Al Tijaria Company",
+        "leasing_agent": "Al Tijaria Company"
+      },
+      "location": {
+        "latitude": 29.1496559,
+        "longitude": 48.1191986
+      },
+      "tenants": [
+        {
+          "name": "Kababji",
+          "category": "other"
+        },
+        {
+          "name": "Burger King",
+          "category": "food"
+        },
+        {
+          "name": "Taco Bell",
+          "category": "other"
+        },
+        {
+          "name": "Pizza Hut",
+          "category": "food"
+        },
+        {
+          "name": "Dawat",
+          "category": "other"
+        },
+        {
+          "name": "Applebees",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/35e0f271e6a4bef3f424fade65c5c8d3.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.6243650913238525,
+        "scraped_at": "2025-09-12T00:01:27.155928"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abu-dhabi-mall",
+      "name": "Abu Dhabi Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/a9611c22ee9955473b6eff88ed6e4dcc.jpg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 220000,
+        "gla_sqm": 76289,
+        "levels": 4,
+        "car_parks": "232",
+        "retail_outlets": "250",
+        "year_built": "2001",
+        "anchor_tenants": "Abu Dhabi Cooperative Society, H&M, Carolina Herrera, PF Chang's,Zara, Bershka, Virgin, Tommy Hilfiger, Sharaf DG, Cafe Nero, Borders, Paris Gallery, Fun City, VOX Cinema, Go Sport, Marina Furniture,  Kate Spade, Polo Ralph Lauren, Adidas Original, Massimo Dutti, Mango, DKNY, LA Durée, Melodica",
+        "owner_company": "H.H. Sheikh Suroor Bin Mohammed Al Nahyan",
+        "developer_company_name": "H.H. Sheikh Suroor Bin Mohammed Al Nahyan",
+        "managing_agent": "Aswaq Management & Services",
+        "leasing_agent": "Aswaq Management & Services"
+      },
+      "location": {
+        "latitude": 24.4959241,
+        "longitude": 54.3832259
+      },
+      "tenants": [
+        {
+          "name": "Abu Dhabi Cooperative Society",
+          "category": "other"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Carolina Herrera",
+          "category": "other"
+        },
+        {
+          "name": "PF Chang's",
+          "category": "other"
+        },
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Bershka",
+          "category": "fashion"
+        },
+        {
+          "name": "Virgin",
+          "category": "other"
+        },
+        {
+          "name": "Tommy Hilfiger",
+          "category": "other"
+        },
+        {
+          "name": "Sharaf DG",
+          "category": "electronics"
+        },
+        {
+          "name": "Cafe Nero",
+          "category": "other"
+        },
+        {
+          "name": "Borders",
+          "category": "books"
+        },
+        {
+          "name": "Paris Gallery",
+          "category": "other"
+        },
+        {
+          "name": "Fun City",
+          "category": "entertainment"
+        },
+        {
+          "name": "VOX Cinema",
+          "category": "other"
+        },
+        {
+          "name": "Go Sport",
+          "category": "other"
+        },
+        {
+          "name": "Marina Furniture",
+          "category": "other"
+        },
+        {
+          "name": "Kate Spade",
+          "category": "other"
+        },
+        {
+          "name": "Polo Ralph Lauren",
+          "category": "other"
+        },
+        {
+          "name": "Adidas Original",
+          "category": "sports"
+        },
+        {
+          "name": "Massimo Dutti",
+          "category": "fashion"
+        },
+        {
+          "name": "Mango",
+          "category": "fashion"
+        },
+        {
+          "name": "DKNY",
+          "category": "other"
+        },
+        {
+          "name": "LA Durée",
+          "category": "other"
+        },
+        {
+          "name": "Melodica",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-37-147-photo.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 24,
+      "_scraping_metadata": {
+        "response_time": 1.6661949157714844,
+        "scraped_at": "2025-09-12T00:01:28.822222"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abu-dhabi-plaza",
+      "name": "Abu Dhabi Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/ee245453ce7fe40b4a7918f0ecba786e.jpg",
+      "property_details": {
+        "type_of_property": "Mixed-use Properties",
+        "mall_size_sqm": 500000,
+        "gla_sqm": 26600,
+        "levels": 74,
+        "car_parks": "4126",
+        "retail_outlets": "150",
+        "year_built": "2019",
+        "owner_company": "Aldar Properties PJSC",
+        "developer_company_name": "Aldar Properties PJSC",
+        "managing_agent": "Aldar Properties PJSC",
+        "leasing_agent": "Aldar Properties PJSC",
+        "main_architects": "HKR Architects, Mott MacDonald Ltd",
+        "main_consultant": "Hyder Consulting",
+        "main_contractor": "Arabtec / CCC"
+      },
+      "location": {
+        "latitude": 51.1220098,
+        "longitude": 71.4282484
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/6e3be195845a2c9be12f033e119611da.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.5953600406646729,
+        "scraped_at": "2025-09-12T00:01:30.221526"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/abu-sidra-mall",
+      "name": "Abu Sidra Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/1e3dd4403500e42699135bd5b6fcc578.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 91708,
+        "gla_sqm": 31911,
+        "levels": 3,
+        "car_parks": "2000",
+        "retail_outlets": "200",
+        "year_built": "2022 Mar",
+        "anchor_tenants": "Lulu Hypermarket, Powerhouse Gym, McDonald's, Papa John's, Splash, Babyshop, Lifestyle, Homebox, KFC, Sheikha Style, Relief Pharma, Icon Clinic, Pizza Hut, Hardees, TwentyOne, Starbucks, Bath & Body, Funville, Doha Clinic, Krespe Crème, CaffeZone, Brioche & Bagguette, Gazebo Restaurant, Rasasi, KCorner, Iris Optics",
+        "owner_company": "Mohamed Bin Hamad Holding Company",
+        "developer_company_name": "Shannon Engineering",
+        "managing_agent": "Lulu Group International",
+        "leasing_agent": "Lulu Group International",
+        "main_architects": "Shannon Engineering",
+        "main_consultant": "Arab  Engineering Bureau",
+        "main_contractor": "Arab  Engineering Bureau"
+      },
+      "location": {
+        "latitude": 25.2331868,
+        "longitude": 51.40086609999999
+      },
+      "tenants": [
+        {
+          "name": "Lulu Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Powerhouse Gym",
+          "category": "other"
+        },
+        {
+          "name": "McDonald's",
+          "category": "other"
+        },
+        {
+          "name": "Papa John's",
+          "category": "other"
+        },
+        {
+          "name": "Splash",
+          "category": "other"
+        },
+        {
+          "name": "Babyshop",
+          "category": "other"
+        },
+        {
+          "name": "Lifestyle",
+          "category": "other"
+        },
+        {
+          "name": "Homebox",
+          "category": "other"
+        },
+        {
+          "name": "KFC",
+          "category": "food"
+        },
+        {
+          "name": "Sheikha Style",
+          "category": "other"
+        },
+        {
+          "name": "Relief Pharma",
+          "category": "other"
+        },
+        {
+          "name": "Icon Clinic",
+          "category": "other"
+        },
+        {
+          "name": "Pizza Hut",
+          "category": "food"
+        },
+        {
+          "name": "Hardees",
+          "category": "other"
+        },
+        {
+          "name": "TwentyOne",
+          "category": "other"
+        },
+        {
+          "name": "Starbucks",
+          "category": "food"
+        },
+        {
+          "name": "Bath & Body",
+          "category": "other"
+        },
+        {
+          "name": "Funville",
+          "category": "other"
+        },
+        {
+          "name": "Doha Clinic",
+          "category": "other"
+        },
+        {
+          "name": "Krespe Crème",
+          "category": "other"
+        },
+        {
+          "name": "CaffeZone",
+          "category": "other"
+        },
+        {
+          "name": "Brioche & Bagguette",
+          "category": "other"
+        },
+        {
+          "name": "Gazebo Restaurant",
+          "category": "food"
+        },
+        {
+          "name": "Rasasi",
+          "category": "other"
+        },
+        {
+          "name": "KCorner",
+          "category": "other"
+        },
+        {
+          "name": "Iris Optics",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 26,
+      "_scraping_metadata": {
+        "response_time": 1.6368520259857178,
+        "scraped_at": "2025-09-12T00:01:31.868719"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/accra-mall",
+      "name": "Accra Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/c3ead87cf3a5306831625f0b6a926d17.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 20681,
+        "gla_sqm": 20673,
+        "levels": 1,
+        "retail_outlets": "80",
+        "annual_footfall": "5662800",
+        "year_built": "2007",
+        "anchor_tenants": "Shoprite, Melcom, Decathlon,  LC Waikiki, Mr Price, Silverbird Cinema",
+        "owner_company": "Lango Real Estate",
+        "managing_agent": "Broll Ghana",
+        "leasing_agent": "Broll Ghana",
+        "main_architects": "Boogertman Pretoria",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "Nortech",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 5.6221003,
+        "longitude": -0.1733501
+      },
+      "tenants": [
+        {
+          "name": "Shoprite",
+          "category": "other"
+        },
+        {
+          "name": "Melcom",
+          "category": "other"
+        },
+        {
+          "name": "Decathlon",
+          "category": "other"
+        },
+        {
+          "name": "LC Waikiki",
+          "category": "other"
+        },
+        {
+          "name": "Mr Price",
+          "category": "other"
+        },
+        {
+          "name": "Silverbird Cinema",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/c3ead87cf3a5306831625f0b6a926d17.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.728065013885498,
+        "scraped_at": "2025-09-12T00:01:37.021977"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/achimota-retail-centre",
+      "name": "Achimota Retail Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/68174f8e7ab2fa1e87564ee8b8885165.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 14696,
+        "gla_sqm": 14696,
+        "levels": 1,
+        "retail_outlets": "45",
+        "annual_footfall": "4000000",
+        "year_built": "2015",
+        "anchor_tenants": "Shoprite, LC Waikiki, Mr Price, FNB, Stanbic Bank",
+        "owner_company": "Delico",
+        "managing_agent": "Broll Ghana",
+        "leasing_agent": "Broll Ghana",
+        "main_architects": "Boogertman Pretoria",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "Nortech",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 5.638479200000001,
+        "longitude": -0.2411386
+      },
+      "tenants": [
+        {
+          "name": "Shoprite",
+          "category": "other"
+        },
+        {
+          "name": "LC Waikiki",
+          "category": "other"
+        },
+        {
+          "name": "Mr Price",
+          "category": "other"
+        },
+        {
+          "name": "FNB",
+          "category": "other"
+        },
+        {
+          "name": "Stanbic Bank",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/68174f8e7ab2fa1e87564ee8b8885165.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 2.4938838481903076,
+        "scraped_at": "2025-09-12T00:01:38.251790"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/adana-optimum",
+      "name": "Adana Optimum",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/1c6989ea4a2073bb1d5d81987900c7b7.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 140117,
+        "gla_sqm": 59999,
+        "retail_outlets": "162",
+        "year_built": "2011",
+        "anchor_tenants": "Zara, Guess, Decathlon, Mediamarkt, Lego Store",
+        "owner_company": "Ronesans Gayrimenkul Yatirim"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Guess",
+          "category": "other"
+        },
+        {
+          "name": "Decathlon",
+          "category": "other"
+        },
+        {
+          "name": "Mediamarkt",
+          "category": "other"
+        },
+        {
+          "name": "Lego Store",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 2.936127185821533,
+        "scraped_at": "2025-09-12T00:01:39.390708"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/adhari-park",
+      "name": "Adhari Park",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/adbb4b03b795e6ddd48738d83d43d57f.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 165000,
+        "gla_sqm": 6777,
+        "levels": 2,
+        "car_parks": "1000",
+        "retail_outlets": "48",
+        "year_built": "2008 Mar",
+        "anchor_tenants": "Ripleys Believe it or Not, Adhari Theme Park,  Adhari Karting Circuit , Adhari Park Bowling Alley",
+        "owner_company": "Al Khaleej Development Company (Tameer) and Kuwaiti Markets and Commercial Complexes Company",
+        "leasing_agent": "Cluttons LLP"
+      },
+      "location": {
+        "latitude": 26.2032566,
+        "longitude": 50.5814356
+      },
+      "tenants": [
+        {
+          "name": "Ripleys Believe it or Not",
+          "category": "other"
+        },
+        {
+          "name": "Adhari Theme Park",
+          "category": "other"
+        },
+        {
+          "name": "Adhari Karting Circuit",
+          "category": "other"
+        },
+        {
+          "name": "Adhari Park Bowling Alley",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.8286828994750977,
+        "scraped_at": "2025-09-12T00:01:42.339357"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/ado-bayero-mall",
+      "name": "Ado Bayero Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/f49bef0b92327298e83d0ebf7f5b3f76.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 100000,
+        "gla_sqm": 24000,
+        "levels": 3,
+        "car_parks": "1000",
+        "retail_outlets": "50",
+        "year_built": "2014 Mar",
+        "anchor_tenants": "Shoprite, Game, Film House Cinema, Daviva Fashion, Wearme, Essenza, Gene Bendi, Lifemate Furniture",
+        "owner_company": "Beverly Development and Realties Limited (BDRL)",
+        "managing_agent": "Broll Property Services Limited",
+        "leasing_agent": "Broll Property Services Limited",
+        "main_architects": "Stauch Vorster Architectc (SVA)"
+      },
+      "location": {
+        "latitude": 12.0021794,
+        "longitude": 8.591956099999999
+      },
+      "tenants": [
+        {
+          "name": "Shoprite",
+          "category": "other"
+        },
+        {
+          "name": "Game",
+          "category": "other"
+        },
+        {
+          "name": "Film House Cinema",
+          "category": "other"
+        },
+        {
+          "name": "Daviva Fashion",
+          "category": "other"
+        },
+        {
+          "name": "Wearme",
+          "category": "other"
+        },
+        {
+          "name": "Essenza",
+          "category": "other"
+        },
+        {
+          "name": "Gene Bendi",
+          "category": "other"
+        },
+        {
+          "name": "Lifemate Furniture",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 8,
+      "_scraping_metadata": {
+        "response_time": 1.7595949172973633,
+        "scraped_at": "2025-09-12T00:01:43.574181"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/afra-mall",
+      "name": "Afra Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/753459f6a1449133db8eba8a98008cab.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 45000,
+        "gla_sqm": 20178,
+        "levels": 3,
+        "car_parks": "380",
+        "retail_outlets": "100",
+        "year_built": "2004 Jan",
+        "anchor_tenants": "Max, Sena, Home R Us, Opera, Babyshop, Marka, Paris Gallery, Giordano, Arabian Oud, Fun Planet Ice Rink, Bowling Alley, LG, Casio",
+        "owner_company": "MZK",
+        "managing_agent": "Bullary LLC",
+        "main_architects": "Roqaia Idriss",
+        "main_consultant": "Noons consultant",
+        "main_contractor": "Al Maged and Co., Jordan"
+      },
+      "location": {
+        "latitude": 15.5593784,
+        "longitude": 32.554871
+      },
+      "tenants": [
+        {
+          "name": "Max",
+          "category": "department_store"
+        },
+        {
+          "name": "Sena",
+          "category": "other"
+        },
+        {
+          "name": "Home R Us",
+          "category": "other"
+        },
+        {
+          "name": "Opera",
+          "category": "other"
+        },
+        {
+          "name": "Babyshop",
+          "category": "other"
+        },
+        {
+          "name": "Marka",
+          "category": "other"
+        },
+        {
+          "name": "Paris Gallery",
+          "category": "other"
+        },
+        {
+          "name": "Giordano",
+          "category": "fashion"
+        },
+        {
+          "name": "Arabian Oud",
+          "category": "other"
+        },
+        {
+          "name": "Fun Planet Ice Rink",
+          "category": "other"
+        },
+        {
+          "name": "Bowling Alley",
+          "category": "other"
+        },
+        {
+          "name": "Casio",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 12,
+      "_scraping_metadata": {
+        "response_time": 2.213258981704712,
+        "scraped_at": "2025-09-12T00:01:44.697872"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/agaoglu-cekmekoy-park-sc",
+      "name": "Agaoglu Cekmekoy Park SC",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/c5b7343381b4962e8f8640813387799b.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 76600,
+        "gla_sqm": 25000,
+        "retail_outlets": "100",
+        "owner_company": "ECE Türkiye"
+      },
+      "location": {},
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.5711050033569336,
+        "scraped_at": "2025-09-12T00:01:47.303396"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/airport-city",
+      "name": "Airport City",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/3dc5ee63414caf243a479fc088db2d5d.jpeg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 205000,
+        "gla_sqm": 203890,
+        "levels": 2,
+        "car_parks": "6756",
+        "retail_outlets": "645",
+        "year_built": "2024",
+        "anchor_tenants": "Mix of retail brands and stores",
+        "owner_company": "Airport City Project",
+        "developer_company_name": "SA’AF International Group",
+        "leasing_agent": "McARTHUR + COMPANY",
+        "main_consultant": "SA’AF International Group"
+      },
+      "location": {
+        "latitude": 21.6613538,
+        "longitude": 39.1763172
+      },
+      "tenants": [
+        {
+          "name": "Mix of retail brands and stores",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-39-16-photo.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.63261079788208,
+        "scraped_at": "2025-09-12T00:01:48.694735"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/ajial-mall",
+      "name": "Ajial Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/10e8dfc86a60de721af5542fc05bc83a.jpg",
+      "property_details": {
+        "type_of_property": "Convenience Centre",
+        "mall_size_sqm": 24000,
+        "levels": 4,
+        "year_built": "2003",
+        "anchor_tenants": "Bossini, Faces, Food Court, Cinemas, Steps, Top Chic, Children's Entertainment Center",
+        "owner_company": "Ajial Real Estate & Entertainment Co.",
+        "main_architects": "Roberts Limbrick Limited",
+        "main_consultant": "OHA Engineering Consultant",
+        "main_contractor": "Ahmadiah Contracting  & Trading Co."
+      },
+      "location": {
+        "latitude": 29.082714,
+        "longitude": 48.1363534
+      },
+      "tenants": [
+        {
+          "name": "Bossini",
+          "category": "other"
+        },
+        {
+          "name": "Faces",
+          "category": "other"
+        },
+        {
+          "name": "Food Court",
+          "category": "other"
+        },
+        {
+          "name": "Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Steps",
+          "category": "other"
+        },
+        {
+          "name": "Top Chic",
+          "category": "other"
+        },
+        {
+          "name": "Children's Entertainment Center",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 1.593958854675293,
+        "scraped_at": "2025-09-12T00:01:49.799188"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/ajman-china-mall",
+      "name": "Ajman China Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/5a04c32d9e1a0744d8bd73849d6c0b98.jpg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 380000,
+        "gla_sqm": 120000,
+        "levels": 1,
+        "car_parks": "2500",
+        "retail_outlets": "2000",
+        "year_built": "2010",
+        "anchor_tenants": "Commercial Branch of Hunan province in the Middle East",
+        "owner_company": "Gulf Chinese Trading Corporation",
+        "developer_company_name": "Gulf Chinese Trading Corporation",
+        "managing_agent": "Gulf Chinese Trading Corporation",
+        "leasing_agent": "Gulf Chinese Trading Corporation"
+      },
+      "location": {
+        "latitude": 25.4269669,
+        "longitude": 55.5252439
+      },
+      "tenants": [
+        {
+          "name": "Commercial Branch of Hunan province in the Middle East",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.5955970287322998,
+        "scraped_at": "2025-09-12T00:01:52.482270"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/akasya-acıbadem",
+      "name": "Akasya Acıbadem",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/3a2979383311828c10d2f797b2445b6c.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 336301,
+        "gla_sqm": 80000,
+        "retail_outlets": "250",
+        "year_built": "2014",
+        "anchor_tenants": "Victoria's Secret, Vakko, Vakkoroma, Zara, Zara Home",
+        "owner_company": "Akiş Real Estate Investment"
+      },
+      "location": {
+        "latitude": 41.0017345,
+        "longitude": 29.0545353
+      },
+      "tenants": [
+        {
+          "name": "Victoria's Secret",
+          "category": "other"
+        },
+        {
+          "name": "Vakko",
+          "category": "other"
+        },
+        {
+          "name": "Vakkoroma",
+          "category": "other"
+        },
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Zara Home",
+          "category": "fashion"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d474a80f518c117f6cd7c5fbc6c98c81.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.6136319637298584,
+        "scraped_at": "2025-09-12T00:01:57.716310"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/akbatı",
+      "name": "Akbatı",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/38e3814a6bd55e77a87380f81aa936b3.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 185032,
+        "gla_sqm": 65496,
+        "retail_outlets": "200",
+        "year_built": "2011",
+        "anchor_tenants": "Altınyıldız, Atasay, Beymen Club, Columbia, İpekyol, Massimo Dutti",
+        "owner_company": "Akiş Real Estate Investment"
+      },
+      "location": {
+        "latitude": 41.0564257,
+        "longitude": 28.6677305
+      },
+      "tenants": [
+        {
+          "name": "Altınyıldız",
+          "category": "other"
+        },
+        {
+          "name": "Atasay",
+          "category": "other"
+        },
+        {
+          "name": "Beymen Club",
+          "category": "other"
+        },
+        {
+          "name": "Columbia",
+          "category": "other"
+        },
+        {
+          "name": "İpekyol",
+          "category": "other"
+        },
+        {
+          "name": "Massimo Dutti",
+          "category": "fashion"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d474a80f518c117f6cd7c5fbc6c98c81.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 2.5825819969177246,
+        "scraped_at": "2025-09-12T00:01:58.888875"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/akmerkez",
+      "name": "Akmerkez",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/76e2774f0420e1b33da97df2e0a30e14.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 180000,
+        "gla_sqm": 33999,
+        "retail_outlets": "182",
+        "year_built": "1993",
+        "anchor_tenants": "Zara, Massimo Dutti, Vakkorama, Mars Athletic Club, Mango, Macro Center, Cinema Pink, Decathlon",
+        "owner_company": "Akmerkez GYO"
+      },
+      "location": {},
+      "tenants": [
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Massimo Dutti",
+          "category": "fashion"
+        },
+        {
+          "name": "Vakkorama",
+          "category": "other"
+        },
+        {
+          "name": "Mars Athletic Club",
+          "category": "other"
+        },
+        {
+          "name": "Mango",
+          "category": "fashion"
+        },
+        {
+          "name": "Macro Center",
+          "category": "fashion"
+        },
+        {
+          "name": "Cinema Pink",
+          "category": "other"
+        },
+        {
+          "name": "Decathlon",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d4bebfd94bbe71b55db7c5639f93c842.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 8,
+      "_scraping_metadata": {
+        "response_time": 3.2695579528808594,
+        "scraped_at": "2025-09-12T00:01:59.953196"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-aali-mall",
+      "name": "Al Aali Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/8e83251d55459c9b9036c13a7b5bb93c.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 52000,
+        "gla_sqm": 25340,
+        "levels": 3,
+        "car_parks": "600",
+        "retail_outlets": "160",
+        "year_built": "1996",
+        "anchor_tenants": "Jashanmal Department Store, The One, Bahrain Jewellery Centre, Café Lilou, Laderach",
+        "owner_company": "Haji Hassan Group BSC",
+        "main_architects": "Ahmed Bucheeri",
+        "main_consultant": "Ahmed Abubaker Janahi",
+        "main_contractor": "GPZ"
+      },
+      "location": {
+        "latitude": 26.2329642,
+        "longitude": 50.5404736
+      },
+      "tenants": [
+        {
+          "name": "Jashanmal Department Store",
+          "category": "other"
+        },
+        {
+          "name": "The One",
+          "category": "other"
+        },
+        {
+          "name": "Bahrain Jewellery Centre",
+          "category": "other"
+        },
+        {
+          "name": "Café Lilou",
+          "category": "other"
+        },
+        {
+          "name": "Laderach",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.6199522018432617,
+        "scraped_at": "2025-09-12T00:02:02.828765"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-ageeg-square",
+      "name": "Al Ageeg Square",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/45db7045b68b562467817566a9312151.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 10500,
+        "gla_sqm": 5770,
+        "levels": 1,
+        "retail_outlets": "19",
+        "year_built": "2016",
+        "anchor_tenants": "Danube Supermarket",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 24.7618068,
+        "longitude": 46.62542149999999
+      },
+      "tenants": [
+        {
+          "name": "Danube Supermarket",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.8576879501342773,
+        "scraped_at": "2025-09-12T00:02:05.603913"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-ahsa-square",
+      "name": "Al Ahsa Square",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/3b02b178fdd5f2948e444274e0442e52.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "gla_sqm": 8182,
+        "levels": 3,
+        "year_built": "1991",
+        "anchor_tenants": "Jarir Bookstore",
+        "managing_agent": "Olaat Properties Management",
+        "leasing_agent": "Olaat Properties Management"
+      },
+      "location": {
+        "latitude": 24.7360548,
+        "longitude": 46.7204207
+      },
+      "tenants": [
+        {
+          "name": "Jarir Bookstore",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/3b02b178fdd5f2948e444274e0442e52.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 2.5628178119659424,
+        "scraped_at": "2025-09-12T00:02:06.523935"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-ain-community-centre",
+      "name": "Al Ain Community Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/54dc1aaa87b7da952a6cd1c6cdc74898.png",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "gla_sqm": 5325,
+        "levels": 2,
+        "car_parks": "130 + 250",
+        "retail_outlets": "17",
+        "developer_company_name": "Al Falaj Investment",
+        "managing_agent": "McARTHUR + COMPANY",
+        "leasing_agent": "McARTHUR + COMPANY",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "McARTHUR + COMPANY",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 24.2356902,
+        "longitude": 55.7314458
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/54dc1aaa87b7da952a6cd1c6cdc74898.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.5378978252410889,
+        "scraped_at": "2025-09-12T00:02:09.366941"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-alam-mall",
+      "name": "Al Alam Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/db0c5e5f839b9a1bd6456c38562f109b.JPG",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 40348,
+        "gla_sqm": 40348,
+        "levels": 2,
+        "car_parks": "480",
+        "year_built": "2017",
+        "owner_company": "Azad Properties",
+        "developer_company_name": "Azad Properties",
+        "managing_agent": "Azad Properties",
+        "leasing_agent": "Azad Properties"
+      },
+      "location": {
+        "latitude": 24.6543677,
+        "longitude": 46.7906624
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/db0c5e5f839b9a1bd6456c38562f109b.JPG",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.5759551525115967,
+        "scraped_at": "2025-09-12T00:02:11.314077"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-andalus-mall",
+      "name": "Al-Andalus Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/b2c11cf83a3434a6957e7a2c05974dbf.jpg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 136481,
+        "gla_sqm": 101076,
+        "levels": 2,
+        "car_parks": "2500",
+        "retail_outlets": "452",
+        "year_built": "2007",
+        "anchor_tenants": "Hyper Panda, Centrepoint, H&M, Paris Gallery, Kiabi",
+        "owner_company": "Al Andalus Property Company",
+        "developer_company_name": "Hamat Property Company",
+        "managing_agent": "Hamat Property Company"
+      },
+      "location": {
+        "latitude": 21.5162499,
+        "longitude": 39.1666059
+      },
+      "tenants": [
+        {
+          "name": "Hyper Panda",
+          "category": "other"
+        },
+        {
+          "name": "Centrepoint",
+          "category": "department_store"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Paris Gallery",
+          "category": "other"
+        },
+        {
+          "name": "Kiabi",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/90666ef9f7c2b609d9a6cf40df02d05f.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 2.305243968963623,
+        "scraped_at": "2025-09-12T00:02:12.454231"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-andalus-plaza",
+      "name": "Al Andalus Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/694028bf04e31e2fa6106c2eb10fcff4.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 42000,
+        "gla_sqm": 18000,
+        "levels": 2,
+        "retail_outlets": "45",
+        "year_built": "2011",
+        "anchor_tenants": "HyperPanda, KFC, Kudu",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 26.4299263,
+        "longitude": 50.0668853
+      },
+      "tenants": [
+        {
+          "name": "HyperPanda",
+          "category": "other"
+        },
+        {
+          "name": "KFC",
+          "category": "food"
+        },
+        {
+          "name": "Kudu",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 1.6160469055175781,
+        "scraped_at": "2025-09-12T00:02:15.638396"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-arab-mall",
+      "name": "Al Arab Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/23cd1c3c5f656137ace0e1f308826b0c.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 40000,
+        "gla_sqm": 26000,
+        "levels": 4,
+        "car_parks": "600",
+        "retail_outlets": "120",
+        "year_built": "2000",
+        "anchor_tenants": "Nesto Hypermarket, Money Exchange, Pharmacy, Hyper Market, Government Services, Banks",
+        "owner_company": "Al Arab Mall LLC"
+      },
+      "location": {
+        "latitude": 25.3088924,
+        "longitude": 55.3693868
+      },
+      "tenants": [
+        {
+          "name": "Nesto Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Money Exchange",
+          "category": "other"
+        },
+        {
+          "name": "Pharmacy",
+          "category": "fashion"
+        },
+        {
+          "name": "Hyper Market",
+          "category": "other"
+        },
+        {
+          "name": "Government Services",
+          "category": "other"
+        },
+        {
+          "name": "Banks",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 3.1175448894500732,
+        "scraped_at": "2025-09-12T00:02:23.352041"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-araimi-complex",
+      "name": "Al Araimi Complex",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/fc2ec4cbf4dc856781c1d241297d1292.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 15000,
+        "gla_sqm": 12000,
+        "levels": 3,
+        "car_parks": "1100",
+        "retail_outlets": "83",
+        "year_built": "1994",
+        "anchor_tenants": "Marina Home Interiors, Athlete's Foot, Giordano, Pizza Inn, Ajmal, Abdul Samad Al Quraishi, Paris Optics",
+        "owner_company": "Abdullah Al Araimi",
+        "leasing_agent": "Al Raid Business Corporation",
+        "main_architects": "Qurum Design",
+        "main_consultant": "Qurum Design",
+        "main_contractor": "Oman Transport & Contracting Co."
+      },
+      "location": {
+        "latitude": 23.6133004,
+        "longitude": 58.4947994
+      },
+      "tenants": [
+        {
+          "name": "Marina Home Interiors",
+          "category": "other"
+        },
+        {
+          "name": "Athlete's Foot",
+          "category": "other"
+        },
+        {
+          "name": "Giordano",
+          "category": "fashion"
+        },
+        {
+          "name": "Pizza Inn",
+          "category": "other"
+        },
+        {
+          "name": "Ajmal",
+          "category": "other"
+        },
+        {
+          "name": "Abdul Samad Al Quraishi",
+          "category": "other"
+        },
+        {
+          "name": "Paris Optics",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/ffe4884f70834a9e09a5ec578288f075.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 2.5618298053741455,
+        "scraped_at": "2025-09-12T00:02:22.073685"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-arkaziya-mall",
+      "name": "Al Arkaziya Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/b869c832473ebc7b90c9fbf242da249d.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 71566,
+        "gla_sqm": 49500,
+        "levels": 2,
+        "car_parks": "1,800",
+        "retail_outlets": "193",
+        "year_built": "2023",
+        "anchor_tenants": "15 Screen movie theatre with IMAX",
+        "owner_company": "RIKAZ Properties",
+        "developer_company_name": "RIKAZ Properties",
+        "managing_agent": "McARTHUR + COMPANY",
+        "leasing_agent": "McARTHUR + COMPANY",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "McARTHUR + COMPANY",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 26.4206828,
+        "longitude": 50.0887943
+      },
+      "tenants": [
+        {
+          "name": "15 Screen movie theatre with IMAX",
+          "category": "department_store"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-39-16-photo.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.5708129405975342,
+        "scraped_at": "2025-09-12T00:02:20.887598"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-arous-1a-eastern-village-district-center",
+      "name": "Al Arous 1A - Eastern Village  - District Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/c78b7ede5321ccf54de7149072c3343f.png",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 8077,
+        "gla_sqm": 6327,
+        "levels": 2,
+        "car_parks": "240",
+        "retail_outlets": "25",
+        "year_built": "Q2 2026",
+        "owner_company": "ROSHN Group",
+        "developer_company_name": "ROSHN Group"
+      },
+      "location": {
+        "latitude": 21.7321467,
+        "longitude": 39.1656483
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/95498ab3036d04dbaf7861ee6ebbf89b.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.618614912033081,
+        "scraped_at": "2025-09-12T00:02:26.222114"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-aziziah-plaza",
+      "name": "Al Aziziah Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/e549831d025c55800845568a499c3474.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 17800,
+        "gla_sqm": 9200,
+        "levels": 1,
+        "retail_outlets": "30",
+        "year_built": "2016",
+        "anchor_tenants": "Danube Supermarket, McDonald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 26.1901945,
+        "longitude": 50.18951819999999
+      },
+      "tenants": [
+        {
+          "name": "Danube Supermarket",
+          "category": "other"
+        },
+        {
+          "name": "McDonald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 2.2608511447906494,
+        "scraped_at": "2025-09-12T00:02:27.413684"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-badiah-plaza",
+      "name": "Al Badiah Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/f4d68905647fd90e1805f636b54cb381.JPG",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 16500,
+        "gla_sqm": 8700,
+        "levels": 1,
+        "retail_outlets": "26",
+        "year_built": "2017",
+        "anchor_tenants": "Danube Supermarket",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 24.5923939,
+        "longitude": 46.6221596
+      },
+      "tenants": [
+        {
+          "name": "Danube Supermarket",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.6303112506866455,
+        "scraped_at": "2025-09-12T00:02:29.811234"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bahar-center",
+      "name": "Al Bahar Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/8f6eb04fb8964dccc0e33c02ce393e1e.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 6000,
+        "gla_sqm": 6880,
+        "levels": 3,
+        "car_parks": "400",
+        "year_built": "2006",
+        "anchor_tenants": "MAX, Spring Field",
+        "owner_company": "Abdulrehman MHD Al Bahar & Partners Co.",
+        "leasing_agent": "Abdulrehman MHD Al Bahar & Partners Co."
+      },
+      "location": {
+        "latitude": 29.32953879999999,
+        "longitude": 48.02895909999999
+      },
+      "tenants": [
+        {
+          "name": "MAX",
+          "category": "department_store"
+        },
+        {
+          "name": "Spring Field",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.5803821086883545,
+        "scraped_at": "2025-09-12T00:02:31.946037"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bahr-commercial-center",
+      "name": "Al Bahr Commercial Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/e5d0e1991355a21a59c9443451180118.jpeg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 38000,
+        "gla_sqm": 18933,
+        "levels": 3,
+        "car_parks": "519",
+        "retail_outlets": "71",
+        "year_built": "2022",
+        "anchor_tenants": "Lulu Hypermarkets",
+        "owner_company": "Al-Nahla Company For Urban Development",
+        "developer_company_name": "Al-Ameen Distinctive Company For Urban Development",
+        "main_architects": "Arrand Engineering Consultants",
+        "main_consultant": "Arrand Engineering Consultants",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "RCG",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 21.5473167,
+        "longitude": 39.1384751
+      },
+      "tenants": [
+        {
+          "name": "Lulu Hypermarkets",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.78892183303833,
+        "scraped_at": "2025-09-12T00:02:33.137804"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bairaq-mall",
+      "name": "Al Bairaq Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/869c9ed66b753afe8d97e455daf516b5.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 17000,
+        "gla_sqm": 9000,
+        "car_parks": "1250",
+        "year_built": "2008",
+        "owner_company": "Al Mubarakia United Company",
+        "main_architects": "Al Mubarakia United Company"
+      },
+      "location": {
+        "latitude": 29.1733836,
+        "longitude": 48.0988065
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.6186480522155762,
+        "scraped_at": "2025-09-12T00:02:35.493119"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bandar-plaza",
+      "name": "Al Bandar Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/9bfa4650521337b98dc37d073c40cf8a.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 35000,
+        "gla_sqm": 5748,
+        "levels": 1,
+        "car_parks": "800",
+        "retail_outlets": "20",
+        "year_built": "2010",
+        "anchor_tenants": "Spinneys, Nolu's, Health Plus Family Clinic",
+        "owner_company": "Aldar Properties PJSC",
+        "developer_company_name": "Aldar Properties PJSC",
+        "managing_agent": "Aldar Properties PJSC",
+        "leasing_agent": "Aldar Properties PJSC"
+      },
+      "location": {
+        "latitude": 24.4511944,
+        "longitude": 54.5995572
+      },
+      "tenants": [
+        {
+          "name": "Spinneys",
+          "category": "other"
+        },
+        {
+          "name": "Nolu's",
+          "category": "other"
+        },
+        {
+          "name": "Health Plus Family Clinic",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/1cb7bb13b44f2bb805a87e62c2dc7e01.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 1.5884671211242676,
+        "scraped_at": "2025-09-12T00:02:38.337835"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-baraka-mall",
+      "name": "Al Baraka Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/10359b208d2771d0f464daca35c28b6c.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 40000,
+        "gla_sqm": 18000,
+        "levels": 6,
+        "car_parks": "300",
+        "retail_outlets": "40",
+        "year_built": "2008 March 24",
+        "anchor_tenants": "Storia Department Store, Rolex, Longines, Tudor, Matalan, ONYX Super Market, Tati",
+        "owner_company": "Jordan Kuwait Bank",
+        "managing_agent": "Jordan Kuwait Bank",
+        "main_architects": "Alnasser Architects",
+        "main_contractor": "Masannat Engineering & Contracting Co."
+      },
+      "location": {
+        "latitude": 31.9553569,
+        "longitude": 35.8662448
+      },
+      "tenants": [
+        {
+          "name": "Storia Department Store",
+          "category": "other"
+        },
+        {
+          "name": "Rolex",
+          "category": "other"
+        },
+        {
+          "name": "Longines",
+          "category": "other"
+        },
+        {
+          "name": "Tudor",
+          "category": "other"
+        },
+        {
+          "name": "Matalan",
+          "category": "department_store"
+        },
+        {
+          "name": "ONYX Super Market",
+          "category": "other"
+        },
+        {
+          "name": "Tati",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 2.8439178466796875,
+        "scraped_at": "2025-09-12T00:02:45.210399"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bateen-park",
+      "name": "Al Bateen Park",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/1cb7bb13b44f2bb805a87e62c2dc7e01.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 25000,
+        "gla_sqm": 1470,
+        "levels": 1,
+        "car_parks": "40",
+        "retail_outlets": "7",
+        "year_built": "2014",
+        "anchor_tenants": "Joud Café, Keki",
+        "owner_company": "Aldar Properties PJSC",
+        "developer_company_name": "Aldar Properties PJSC",
+        "managing_agent": "Aldar Properties PJSC",
+        "leasing_agent": "Aldar Properties PJSC"
+      },
+      "location": {
+        "latitude": 24.4566204,
+        "longitude": 54.3419704
+      },
+      "tenants": [
+        {
+          "name": "Joud Café",
+          "category": "other"
+        },
+        {
+          "name": "Keki",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/9bfa4650521337b98dc37d073c40cf8a.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.5949220657348633,
+        "scraped_at": "2025-09-12T00:02:43.063759"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-buhaira-plaza",
+      "name": "Al Buhaira Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/137080759b95d3995c9c991c3159b323.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 19400,
+        "gla_sqm": 9150,
+        "levels": 1,
+        "retail_outlets": "29",
+        "year_built": "2017",
+        "anchor_tenants": "Danube Supermarket, Mc Donald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 26.4689256,
+        "longitude": 50.06091499999999
+      },
+      "tenants": [
+        {
+          "name": "Danube Supermarket",
+          "category": "other"
+        },
+        {
+          "name": "Mc Donald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 2.547715187072754,
+        "scraped_at": "2025-09-12T00:02:44.261665"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bustan-centre",
+      "name": "Al Bustan Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/43206c649b93f1f50a822688fe0274fd.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 16728,
+        "gla_sqm": 10000,
+        "levels": 1,
+        "car_parks": "850",
+        "retail_outlets": "95",
+        "year_built": "1997",
+        "anchor_tenants": "Shaklan Market, AMER & Tas-heel, Abu Dhabi Commercial Bank, Lakeshore Medical Centre",
+        "owner_company": "Al Bustan Centre & Residence",
+        "main_architects": "WS Atkins & Partners",
+        "main_consultant": "WS Atkins & Partners",
+        "main_contractor": "GICC"
+      },
+      "location": {
+        "latitude": 25.2750202,
+        "longitude": 55.3681066
+      },
+      "tenants": [
+        {
+          "name": "Shaklan Market",
+          "category": "other"
+        },
+        {
+          "name": "AMER & Tas-heel",
+          "category": "other"
+        },
+        {
+          "name": "Abu Dhabi Commercial Bank",
+          "category": "other"
+        },
+        {
+          "name": "Lakeshore Medical Centre",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.6298141479492188,
+        "scraped_at": "2025-09-12T00:02:48.207373"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-bustan-commercial-complex",
+      "name": "Al Bustan Commercial Complex",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/a635512eb8b3cc41168021eb4b351d72.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 15308,
+        "gla_sqm": 6288,
+        "levels": 4,
+        "retail_outlets": "101",
+        "annual_footfall": "1000000",
+        "year_built": "1998 Nov",
+        "anchor_tenants": "LC Waikiki, Pizza Hut, Second Cup, Wooden Bakery, Fiesta Kuwait, BreadTalk",
+        "owner_company": "Bibi & Lamia & Lubaba Hussein Maarafi",
+        "developer_company_name": "Mohamed Saleh &Reza Youssef Behbehani Co.",
+        "managing_agent": "Mohamed Saleh &Reza Youssef Behbehani Co.",
+        "leasing_agent": "Mohamed Saleh &Reza Youssef Behbehani Co.",
+        "main_architects": "MAC Kuwait Company",
+        "main_consultant": "MAC Kuwait Company",
+        "main_contractor": "Al Ahmadiah Contractor"
+      },
+      "location": {
+        "latitude": 29.3416433,
+        "longitude": 48.0749001
+      },
+      "tenants": [
+        {
+          "name": "LC Waikiki",
+          "category": "other"
+        },
+        {
+          "name": "Pizza Hut",
+          "category": "food"
+        },
+        {
+          "name": "Second Cup",
+          "category": "other"
+        },
+        {
+          "name": "Wooden Bakery",
+          "category": "other"
+        },
+        {
+          "name": "Fiesta Kuwait",
+          "category": "other"
+        },
+        {
+          "name": "BreadTalk",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/a635512eb8b3cc41168021eb4b351d72.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.758863925933838,
+        "scraped_at": "2025-09-12T00:02:49.419651"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-dabbous-mall",
+      "name": "Al Dabbous Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/198832a2e17bd91d866a153c1ca230d6.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 15301,
+        "gla_sqm": 13535,
+        "levels": 4,
+        "year_built": "2012",
+        "anchor_tenants": "Carrefour, Max, STC, AL Jazeer Perfumes",
+        "developer_company_name": "Mudon Real Estate",
+        "leasing_agent": "Mudon Real Estate",
+        "main_architects": "Kuwait Engineering Bureau"
+      },
+      "location": {
+        "latitude": 29.2720146,
+        "longitude": 47.9665924
+      },
+      "tenants": [
+        {
+          "name": "Carrefour",
+          "category": "hypermarket"
+        },
+        {
+          "name": "Max",
+          "category": "department_store"
+        },
+        {
+          "name": "STC",
+          "category": "other"
+        },
+        {
+          "name": "AL Jazeer Perfumes",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/f2a0b94d6e9f721e7e0388e497aad5d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 2.3089380264282227,
+        "scraped_at": "2025-09-12T00:02:50.600593"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-deffi-center",
+      "name": "Al Deffi Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/2c721d750b08579186ca165aeeec7ab6.JPEG",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 5199,
+        "gla_sqm": 4024,
+        "levels": 1,
+        "car_parks": "111",
+        "retail_outlets": "28",
+        "year_built": "2019",
+        "anchor_tenants": "Farm supermarket, Al Nahdi Pharmacy",
+        "owner_company": "Kinan International for Real Estate Development Co.",
+        "developer_company_name": "Kinan International for Real Estate Development Co.",
+        "managing_agent": "Kinan International for Real Estate Development Co.",
+        "leasing_agent": "Kinan International for Real Estate Development Co."
+      },
+      "location": {
+        "latitude": 27.1315481,
+        "longitude": 49.5207924
+      },
+      "tenants": [
+        {
+          "name": "Farm supermarket",
+          "category": "other"
+        },
+        {
+          "name": "Al Nahdi Pharmacy",
+          "category": "fashion"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-1325-333-photo.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.6969289779663086,
+        "scraped_at": "2025-09-12T00:02:54.539541"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-dhafra-mall",
+      "name": "Al Dhafra Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/fa24ed1cb3b74d4ffc8787a0d5cacbd6.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 21902,
+        "gla_sqm": 16281,
+        "levels": 2,
+        "car_parks": "346",
+        "retail_outlets": "57",
+        "year_built": "2019 December 26",
+        "anchor_tenants": "Lulu Hypermarket & Department Store, Mumuso, Orange Hub, Burjeel Day Care Surgery Center, Etisalat",
+        "owner_company": "Lulu Group International / Line Investments & Property - Sole Proprietorship LLC",
+        "developer_company_name": "Lulu Group International / Line Investments & Property - Sole Proprietorship LLC",
+        "managing_agent": "Line Investments & Property - Sole Proprietorship LLC",
+        "leasing_agent": "Line Investments & Property - Sole Proprietorship LLC",
+        "main_consultant": "WHITE YOUNG EMIRATES - ABU DHABI",
+        "main_contractor": "JAZAL ENGINEERING &CONTRACTING L.L.C."
+      },
+      "location": {
+        "latitude": 23.7046025,
+        "longitude": 53.3069654
+      },
+      "tenants": [
+        {
+          "name": "Lulu Hypermarket & Department Store",
+          "category": "other"
+        },
+        {
+          "name": "Mumuso",
+          "category": "other"
+        },
+        {
+          "name": "Orange Hub",
+          "category": "other"
+        },
+        {
+          "name": "Burjeel Day Care Surgery Center",
+          "category": "other"
+        },
+        {
+          "name": "Etisalat",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-1319-210-photo.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 2.5513670444488525,
+        "scraped_at": "2025-09-12T00:02:56.812966"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-dhaid-flag-square",
+      "name": "Al Dhaid Flag Square",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/bead8f155a25e15219db8a9199f6a1e7.jpg",
+      "property_details": {
+        "type_of_property": "Others",
+        "car_parks": "350",
+        "retail_outlets": "1",
+        "year_built": "2013 Dec",
+        "anchor_tenants": "Mix of Retail Brands and Stores",
+        "owner_company": "Shurooq",
+        "developer_company_name": "Shurooq",
+        "managing_agent": "Projects Team",
+        "leasing_agent": "Projects Team",
+        "main_architects": "Projects Team",
+        "main_consultant": "Projects Team"
+      },
+      "location": {
+        "latitude": 25.3461555,
+        "longitude": 55.42109319999999
+      },
+      "tenants": [
+        {
+          "name": "Mix of Retail Brands and Stores",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/a5da151e92cfe4160746cdd4f5221225.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 2.1076838970184326,
+        "scraped_at": "2025-09-12T00:02:55.723506"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-falah-central-mall",
+      "name": "Al Falah Central Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/62aa82651ab419079939314a473c4997.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 22873,
+        "gla_sqm": 17320,
+        "levels": 1,
+        "car_parks": "619",
+        "retail_outlets": "35",
+        "anchor_tenants": "Lulu Hypermarket, Body Abs, Starbuck, La Brioche, Wimpy, KFC, Joud Coffee",
+        "owner_company": "Lulu Group International/Line Investments and Property  - Sole Proprietorship LLC",
+        "developer_company_name": "Al Falah Plaza Company - Sole Proprietorship LLC",
+        "managing_agent": "Line Investments and Property - Sole Proprietorship LLC.",
+        "leasing_agent": "Line Investments and Property - Sole Proprietorship LLC.",
+        "main_architects": "Design Concepts",
+        "main_consultant": "Al Amara Al Sharqia",
+        "main_contractor": "Masri Engineering & Contracting"
+      },
+      "location": {
+        "latitude": 24.4276461,
+        "longitude": 54.7141838
+      },
+      "tenants": [
+        {
+          "name": "Lulu Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Body Abs",
+          "category": "other"
+        },
+        {
+          "name": "Starbuck",
+          "category": "other"
+        },
+        {
+          "name": "La Brioche",
+          "category": "food"
+        },
+        {
+          "name": "Wimpy",
+          "category": "other"
+        },
+        {
+          "name": "KFC",
+          "category": "food"
+        },
+        {
+          "name": "Joud Coffee",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-1319-210-photo.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 1.7362110614776611,
+        "scraped_at": "2025-09-12T00:02:59.440198"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-falah-village-centres",
+      "name": "Al Falah Village Centres",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/9f8fde6498fc984aa3ab2ddae6e0b5dc.png",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 12575684,
+        "gla_sqm": 11296,
+        "levels": 1,
+        "car_parks": "1,600",
+        "retail_outlets": "102",
+        "year_built": "2014 Q2",
+        "anchor_tenants": "Choithrams, Spinneys, Abu Dhabi Co-Operative Society",
+        "owner_company": "Aldar Properties PJSC",
+        "developer_company_name": "Aldar Properties PJSC",
+        "managing_agent": "Aldar Properties PJSC",
+        "leasing_agent": "Aldar Properties PJSC"
+      },
+      "location": {
+        "latitude": 24.4548524,
+        "longitude": 54.72345559999999
+      },
+      "tenants": [
+        {
+          "name": "Choithrams",
+          "category": "other"
+        },
+        {
+          "name": "Spinneys",
+          "category": "other"
+        },
+        {
+          "name": "Abu Dhabi Co-Operative Society",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/1dabcdc5b92b902f4e906a218c145265.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 2.252434253692627,
+        "scraped_at": "2025-09-12T00:03:05.584669"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-fanar-mall",
+      "name": "Al Fanar Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/ee2ef39c99776faa3c62d8632e952aee.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 17319,
+        "gla_sqm": 12000,
+        "levels": 4,
+        "car_parks": "158",
+        "retail_outlets": "130",
+        "year_built": "1997",
+        "anchor_tenants": "Zara, Ralph Lauren, Tiffany, Cinescape",
+        "owner_company": "Al Fanar Mall",
+        "main_architects": "Dino Georgio & Partners",
+        "main_consultant": "Salem Al Marzouk & Sabah Abi Hanna (SSH)",
+        "main_contractor": "Ahmadiah Contracting & Trading Co."
+      },
+      "location": {
+        "latitude": 29.3412152,
+        "longitude": 48.0736295
+      },
+      "tenants": [
+        {
+          "name": "Zara",
+          "category": "fashion"
+        },
+        {
+          "name": "Ralph Lauren",
+          "category": "other"
+        },
+        {
+          "name": "Tiffany",
+          "category": "other"
+        },
+        {
+          "name": "Cinescape",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.6094598770141602,
+        "scraped_at": "2025-09-12T00:03:04.416396"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-fayziyyah-plaza",
+      "name": "Al Fayziyyah Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/34eee53c104e1fe84f4fc1b02679a0c2.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 10750,
+        "gla_sqm": 6240,
+        "levels": 1,
+        "retail_outlets": "20",
+        "year_built": "2017",
+        "anchor_tenants": "Panda, McDonald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 26.3862811,
+        "longitude": 43.9638438
+      },
+      "tenants": [
+        {
+          "name": "Panda",
+          "category": "other"
+        },
+        {
+          "name": "McDonald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 3.1180648803710938,
+        "scraped_at": "2025-09-12T00:03:06.713827"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-foah-mall",
+      "name": "Al Foah Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/4283a0419db6e9956fdf80c795e40ea9.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 41000,
+        "gla_sqm": 29350,
+        "levels": 3,
+        "car_parks": "1100",
+        "retail_outlets": "94",
+        "year_built": "2010 Dec",
+        "anchor_tenants": "Lulu Hypermarket & Department Store, Star Cinema, Sparkys, Flash Bowling, Matalan, Reo Fashion, Daiso Japan",
+        "owner_company": "Lulu Group International / Line Investments and Property - Sole Proprietorship L.L.C",
+        "developer_company_name": "Lulu Group International / Line Investments and Property - Sole Proprietorship L.L.C",
+        "managing_agent": "Line Investments and Property - Sole Proprietorship L.L.C",
+        "leasing_agent": "Line Investments and Property - Sole Proprietorship L.L.C",
+        "main_architects": "Safeer Consultant",
+        "main_consultant": "Safeer Consultant",
+        "main_contractor": "Naseem Al Sharq"
+      },
+      "location": {
+        "latitude": 24.453884,
+        "longitude": 54.3773438
+      },
+      "tenants": [
+        {
+          "name": "Lulu Hypermarket & Department Store",
+          "category": "other"
+        },
+        {
+          "name": "Star Cinema",
+          "category": "other"
+        },
+        {
+          "name": "Sparkys",
+          "category": "other"
+        },
+        {
+          "name": "Flash Bowling",
+          "category": "other"
+        },
+        {
+          "name": "Matalan",
+          "category": "department_store"
+        },
+        {
+          "name": "Reo Fashion",
+          "category": "other"
+        },
+        {
+          "name": "Daiso Japan",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/4283a0419db6e9956fdf80c795e40ea9.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 1.5205929279327393,
+        "scraped_at": "2025-09-12T00:03:09.906618"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-furjan-pavilion",
+      "name": "Al Furjan Pavilion",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/9bd45552f9ebdbba7a96a2bf192d1ba7.jpeg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 84445,
+        "gla_sqm": 5000,
+        "levels": 1,
+        "car_parks": "350",
+        "retail_outlets": "34",
+        "year_built": "2016 Dec",
+        "anchor_tenants": "Spinneys & Medicentrres",
+        "owner_company": "Nakheel Malls LLC",
+        "developer_company_name": "Nakheel PJSC"
+      },
+      "location": {
+        "latitude": 25.0251178,
+        "longitude": 55.1524622
+      },
+      "tenants": [
+        {
+          "name": "Spinneys & Medicentrres",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/ac527b90973c88f651e4ef4d6daab1bf.jpeg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.6130869388580322,
+        "scraped_at": "2025-09-12T00:03:11.949998"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-furjan-west-pavilion",
+      "name": "Al Furjan West Pavilion",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/0b692d79fe34b7bb9187d44869cdec73.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "gla_sqm": 8361,
+        "levels": 1,
+        "retail_outlets": "35",
+        "year_built": "2018 Q3",
+        "owner_company": "Nakheel Malls",
+        "developer_company_name": "Nakheel PJSC"
+      },
+      "location": {
+        "latitude": 25.0221131,
+        "longitude": 55.13019430000001
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/ac527b90973c88f651e4ef4d6daab1bf.jpeg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 2.5036659240722656,
+        "scraped_at": "2025-09-12T00:03:12.899278"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-fursan-plaza",
+      "name": "Al Fursan Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/a7154a59ef02a200e420fa7788d72c81.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 13600,
+        "gla_sqm": 7210,
+        "levels": 1,
+        "retail_outlets": "22",
+        "year_built": "2017 July",
+        "anchor_tenants": "Farm Supermarkets, Sparkys",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 24.1637916,
+        "longitude": 47.3155059
+      },
+      "tenants": [
+        {
+          "name": "Farm Supermarkets",
+          "category": "other"
+        },
+        {
+          "name": "Sparkys",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.8309180736541748,
+        "scraped_at": "2025-09-12T00:03:16.089820"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-gam3a-plaza",
+      "name": "Al Gam3A Plaza",
+      "external_url": "https://www.aplus.com.eg/",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 11300,
+        "gla_sqm": 8609,
+        "levels": 3,
+        "car_parks": "200",
+        "retail_outlets": "118",
+        "year_built": "2015",
+        "anchor_tenants": "Concrete, DalyDress, Premoda, Carina, Clue, Tie House, Scarf home",
+        "owner_company": "Al Gamaa Plaza Company",
+        "managing_agent": "A Plus",
+        "leasing_agent": "A Plus"
+      },
+      "location": {
+        "latitude": 31.0373819,
+        "longitude": 31.3718863
+      },
+      "tenants": [
+        {
+          "name": "Concrete",
+          "category": "other"
+        },
+        {
+          "name": "DalyDress",
+          "category": "other"
+        },
+        {
+          "name": "Premoda",
+          "category": "other"
+        },
+        {
+          "name": "Carina",
+          "category": "other"
+        },
+        {
+          "name": "Clue",
+          "category": "other"
+        },
+        {
+          "name": "Tie House",
+          "category": "other"
+        },
+        {
+          "name": "Scarf home",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/images/twitterX.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 7,
+      "_scraping_metadata": {
+        "response_time": 1.6397619247436523,
+        "scraped_at": "2025-09-12T00:03:18.253621"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-ghadeer-square",
+      "name": "Al Ghadeer Square",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/dbf1b1e4a3eb60201234875937e9e349.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 14300,
+        "gla_sqm": 8273,
+        "levels": 1,
+        "retail_outlets": "18",
+        "year_built": "2017",
+        "anchor_tenants": "Danube Supermarket, Illy Café",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 24.7690375,
+        "longitude": 46.6646094
+      },
+      "tenants": [
+        {
+          "name": "Danube Supermarket",
+          "category": "other"
+        },
+        {
+          "name": "Illy Café",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 2.5349929332733154,
+        "scraped_at": "2025-09-12T00:03:19.522793"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-ghazal-mall",
+      "name": "Al Ghazal Mall",
+      "external_url": "https://www.colliers.com/",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "gla_sqm": 5914,
+        "levels": 2,
+        "car_parks": "287",
+        "retail_outlets": "74",
+        "year_built": "2006",
+        "anchor_tenants": "Choitrams, Brands for Less, Cannon, Mr. Bens Costume Closet",
+        "managing_agent": "Colliers International",
+        "leasing_agent": "Colliers International"
+      },
+      "location": {
+        "latitude": 25.2380778,
+        "longitude": 55.272867
+      },
+      "tenants": [
+        {
+          "name": "Choitrams",
+          "category": "other"
+        },
+        {
+          "name": "Brands for Less",
+          "category": "other"
+        },
+        {
+          "name": "Cannon",
+          "category": "other"
+        },
+        {
+          "name": "Mr. Bens Costume Closet",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/0272b5417e9f3faa2c8041cf9fdcd052.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.610597848892212,
+        "scraped_at": "2025-09-12T00:03:21.158991"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-ghurair-centre",
+      "name": "Al Ghurair Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/558b626992b8900af744068853b010de.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 201548,
+        "gla_sqm": 81600,
+        "levels": 3,
+        "car_parks": "1928",
+        "retail_outlets": "290",
+        "year_built": "1981",
+        "anchor_tenants": "Centrepoint, Carrefour, Marks & Spencer, Emax, Metrofitt, Sun and Sand Sports, Max, R&B, Matalan, Brands for Less, Bestoon Samad, Din Tai Fung, LC Waikiki, CCC, OVS",
+        "owner_company": "Al Ghurair Investment LLC",
+        "managing_agent": "Al Ghurair Investment LLC",
+        "leasing_agent": "Al Ghurair Investment LLC",
+        "main_architects": "RTKL",
+        "main_consultant": "Arif & Bintoak",
+        "main_contractor": "ETA Ascon"
+      },
+      "location": {
+        "latitude": 25.2673689,
+        "longitude": 55.3175004
+      },
+      "tenants": [
+        {
+          "name": "Centrepoint",
+          "category": "department_store"
+        },
+        {
+          "name": "Carrefour",
+          "category": "hypermarket"
+        },
+        {
+          "name": "Marks & Spencer",
+          "category": "other"
+        },
+        {
+          "name": "Emax",
+          "category": "department_store"
+        },
+        {
+          "name": "Metrofitt",
+          "category": "other"
+        },
+        {
+          "name": "Sun and Sand Sports",
+          "category": "other"
+        },
+        {
+          "name": "Max",
+          "category": "department_store"
+        },
+        {
+          "name": "R&B",
+          "category": "fashion"
+        },
+        {
+          "name": "Matalan",
+          "category": "department_store"
+        },
+        {
+          "name": "Brands for Less",
+          "category": "other"
+        },
+        {
+          "name": "Bestoon Samad",
+          "category": "other"
+        },
+        {
+          "name": "Din Tai Fung",
+          "category": "other"
+        },
+        {
+          "name": "LC Waikiki",
+          "category": "other"
+        },
+        {
+          "name": "CCC",
+          "category": "other"
+        },
+        {
+          "name": "OVS",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-227.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 15,
+      "_scraping_metadata": {
+        "response_time": 2.738405227661133,
+        "scraped_at": "2025-09-12T00:03:27.169252"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hamra-mall",
+      "name": "Al Hamra Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/5e2492cd1c14df7bc6196f1f94ae6c0e.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 45000,
+        "gla_sqm": 26940,
+        "levels": 2,
+        "car_parks": "1500",
+        "retail_outlets": "130",
+        "year_built": "2009",
+        "anchor_tenants": "Spinneys, VOX Cinemas, Fun Ville, H&M, Pan Emirates, Emax, Sun & Sand Sport, Toys R Us, Sephora, Mothercare, Nandos, Chili's, Shakespeare & Co., Starbucks",
+        "owner_company": "Aldar Properties PJSC",
+        "developer_company_name": "Al Hamra Real Estate Development LLC",
+        "managing_agent": "Aldar Properties PJSC",
+        "leasing_agent": "Aldar Properties PJSC",
+        "main_architects": "Cadiz International",
+        "main_consultant": "DAR DESIGN & ARCHITECTURE BUREAU",
+        "main_contractor": "Al Hamra Construction Company"
+      },
+      "location": {
+        "latitude": 25.6829729,
+        "longitude": 55.781791
+      },
+      "tenants": [
+        {
+          "name": "Spinneys",
+          "category": "other"
+        },
+        {
+          "name": "VOX Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Fun Ville",
+          "category": "other"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "Pan Emirates",
+          "category": "other"
+        },
+        {
+          "name": "Emax",
+          "category": "department_store"
+        },
+        {
+          "name": "Sun & Sand Sport",
+          "category": "other"
+        },
+        {
+          "name": "Toys R Us",
+          "category": "other"
+        },
+        {
+          "name": "Sephora",
+          "category": "fashion"
+        },
+        {
+          "name": "Mothercare",
+          "category": "fashion"
+        },
+        {
+          "name": "Nandos",
+          "category": "food"
+        },
+        {
+          "name": "Chili's",
+          "category": "other"
+        },
+        {
+          "name": "Shakespeare & Co.",
+          "category": "other"
+        },
+        {
+          "name": "Starbucks",
+          "category": "food"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/1dabcdc5b92b902f4e906a218c145265.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 14,
+      "_scraping_metadata": {
+        "response_time": 3.0353829860687256,
+        "scraped_at": "2025-09-12T00:03:28.467910"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hamra-plaza",
+      "name": "Al Hamra Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/d711cf826b392886e3be24831611f27b.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 21000,
+        "gla_sqm": 10000,
+        "levels": 1,
+        "retail_outlets": "53",
+        "year_built": "2008",
+        "anchor_tenants": "Grand Hypermarket, Pure Gym, McDonald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 24.6047625,
+        "longitude": 46.7324844
+      },
+      "tenants": [
+        {
+          "name": "Grand Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Pure Gym",
+          "category": "other"
+        },
+        {
+          "name": "McDonald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 1.6792540550231934,
+        "scraped_at": "2025-09-12T00:03:26.084848"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hamra-tower",
+      "name": "Al Hamra Tower",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/f17df13cbca1867cb885c7a56193102a.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "gla_sqm": 24000,
+        "levels": 5,
+        "car_parks": "1800",
+        "year_built": "2013 Feb",
+        "anchor_tenants": "10 Screen Cinema with IMAX",
+        "owner_company": "Al Hamra Real Estate Company",
+        "managing_agent": "Al Hamra Real Estate Company",
+        "leasing_agent": "Al Hamra Real Estate Company",
+        "main_architects": "Skidmore, Owings & Merrill LLP",
+        "main_contractor": "Ahmadiah Contracting & Trading Co."
+      },
+      "location": {
+        "latitude": 29.3790539,
+        "longitude": 47.9932879
+      },
+      "tenants": [
+        {
+          "name": "10 Screen Cinema with IMAX",
+          "category": "department_store"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 2.937690019607544,
+        "scraped_at": "2025-09-12T00:03:33.670345"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hanaa-centre",
+      "name": "Al Hanaa Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/30ae1ed134a98486e84859eac593eaa1.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 16536,
+        "gla_sqm": 10050,
+        "levels": 3,
+        "car_parks": "148",
+        "retail_outlets": "70",
+        "year_built": "1996",
+        "anchor_tenants": "Amato, Darsara High Fashion, Crystal House, Beauty Way Salon, Xocolate",
+        "owner_company": "Al Ghaith Real Estate",
+        "managing_agent": "Al Hanaa Centre",
+        "leasing_agent": "Al Ghaith Real Estate",
+        "main_architects": "Test Consultant",
+        "main_consultant": "Test Consultant",
+        "main_contractor": "Sarco"
+      },
+      "location": {
+        "latitude": 25.2370341,
+        "longitude": 55.2800732
+      },
+      "tenants": [
+        {
+          "name": "Amato",
+          "category": "other"
+        },
+        {
+          "name": "Darsara High Fashion",
+          "category": "other"
+        },
+        {
+          "name": "Crystal House",
+          "category": "other"
+        },
+        {
+          "name": "Beauty Way Salon",
+          "category": "other"
+        },
+        {
+          "name": "Xocolate",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.6969521045684814,
+        "scraped_at": "2025-09-12T00:03:32.441365"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hayat-shopping-centre",
+      "name": "Al Hayat Shopping Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/44437be281160b6a780d561ac18c3afe.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 12000,
+        "gla_sqm": 7000,
+        "levels": 2,
+        "car_parks": "300",
+        "retail_outlets": "34",
+        "year_built": "2013 Jan",
+        "anchor_tenants": "Megamart, Max, Nasser Pharmacy and Pirate Land",
+        "owner_company": "Etihad Al Khaleej Real Estate BSC",
+        "managing_agent": "Etihad Al Khaleej Real Estate BSC",
+        "leasing_agent": "Etihad Al Khaleej Real Estate BSC",
+        "main_architects": "Yousif Daoud Alsayegh and Associates",
+        "main_consultant": "Yousif Daoud Alsayegh and Associates",
+        "main_contractor": "Bassman Contracting"
+      },
+      "location": {
+        "latitude": 26.2133134,
+        "longitude": 50.5777857
+      },
+      "tenants": [
+        {
+          "name": "Megamart",
+          "category": "other"
+        },
+        {
+          "name": "Max",
+          "category": "department_store"
+        },
+        {
+          "name": "Nasser Pharmacy and Pirate Land",
+          "category": "fashion"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 2.842430830001831,
+        "scraped_at": "2025-09-12T00:03:34.923026"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hizam-center",
+      "name": "Al Hizam Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/2884143eb4d8c865dc75a6a03dc5a635.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 3600,
+        "gla_sqm": 3500,
+        "levels": 2,
+        "retail_outlets": "15",
+        "year_built": "2008",
+        "anchor_tenants": "Kudu, McDonald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 26.3094914,
+        "longitude": 50.197408
+      },
+      "tenants": [
+        {
+          "name": "Kudu",
+          "category": "other"
+        },
+        {
+          "name": "McDonald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.7725110054016113,
+        "scraped_at": "2025-09-12T00:03:38.145633"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hofuf-plaza",
+      "name": "Al Hofuf Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/e7c0d7110434d3cac78e568186b7bfa5.jpg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 10000,
+        "gla_sqm": 6000,
+        "levels": 1,
+        "retail_outlets": "19",
+        "year_built": "2017",
+        "anchor_tenants": "Tamimi Markets, McDonald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 25.3466177,
+        "longitude": 49.6132062
+      },
+      "tenants": [
+        {
+          "name": "Tamimi Markets",
+          "category": "other"
+        },
+        {
+          "name": "McDonald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/2884143eb4d8c865dc75a6a03dc5a635.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.9043529033660889,
+        "scraped_at": "2025-09-12T00:03:39.498500"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-al-khobar",
+      "name": "Al Hokair Time - Al Khobar",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "mall_size_sqm": 5000,
+        "year_built": "2018"
+      },
+      "location": {
+        "latitude": 26.3349714,
+        "longitude": 50.191637
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/a014d64df7a739e533c14e190910f127.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 2.246201992034912,
+        "scraped_at": "2025-09-12T00:03:40.920697"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-al-madinah",
+      "name": "Al Hokair Time - Al Madinah",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/a014d64df7a739e533c14e190910f127.png",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "mall_size_sqm": 8400,
+        "year_built": "2017",
+        "anchor_tenants": "Al Hokair Entertainment",
+        "managing_agent": "BAAN Holding Group"
+      },
+      "location": {
+        "latitude": 24.43525,
+        "longitude": 39.5818647
+      },
+      "tenants": [
+        {
+          "name": "Al Hokair Entertainment",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.6414971351623535,
+        "scraped_at": "2025-09-12T00:03:44.087613"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-al-rabwa",
+      "name": "Al Hokair Time - Al Rabwa",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/07255e23463d7962794abb23321c73ba.JPG",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "mall_size_sqm": 11374,
+        "gla_sqm": 3549,
+        "levels": 1,
+        "car_parks": "200",
+        "retail_outlets": "9",
+        "year_built": "2012 Aug",
+        "anchor_tenants": "Al Hokair Entertainment",
+        "owner_company": "Al Hokair Group",
+        "developer_company_name": "Al Hokair Group",
+        "managing_agent": "Al Hokair Real Estate Developing Company",
+        "leasing_agent": "Al Hokair Real Estate Developing Company",
+        "main_architects": "Al Hokair Group",
+        "main_consultant": "Sumazura Consultant Office",
+        "main_contractor": "Bassam shaker Company"
+      },
+      "location": {
+        "latitude": 24.6970603,
+        "longitude": 46.7659873
+      },
+      "tenants": [
+        {
+          "name": "Al Hokair Entertainment",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 3.742990016937256,
+        "scraped_at": "2025-09-12T00:03:52.092030"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-al-taif",
+      "name": "Al Hokair Time - Al Taif",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/122f4e9d9a9c49bd71a6242bb77b125b.jpg",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "mall_size_sqm": 8775,
+        "gla_sqm": 2872,
+        "levels": 1,
+        "car_parks": "266",
+        "retail_outlets": "25",
+        "year_built": "2017 Dec"
+      },
+      "location": {
+        "latitude": 21.2490212,
+        "longitude": 40.4135449
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 2.402398109436035,
+        "scraped_at": "2025-09-12T00:03:50.752035"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-al-zahir-makkah",
+      "name": "Al Hokair Time  - Al Zahir Makkah",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/7727f05c341088817e1c403325847069.jpeg",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "mall_size_sqm": 8775,
+        "gla_sqm": 1762,
+        "year_built": "2017 Apr",
+        "anchor_tenants": "Al Hokair Entertainment"
+      },
+      "location": {
+        "latitude": 21.4475657,
+        "longitude": 39.8076851
+      },
+      "tenants": [
+        {
+          "name": "Al Hokair Entertainment",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 1.6682591438293457,
+        "scraped_at": "2025-09-12T00:03:49.539938"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-jizan",
+      "name": "Al Hokair Time Jizan",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/73947a4b15e13dd2082dda5feb42f1c1.jpg",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "year_built": "2018"
+      },
+      "location": {
+        "latitude": 16.9293181,
+        "longitude": 42.5494489
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 2.8410427570343018,
+        "scraped_at": "2025-09-12T00:03:56.987949"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-nakheel-plaza",
+      "name": "Al Hokair Time - Nakheel Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/118ea29d804c0f1e6e9267a08b3219e9.png",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres"
+      },
+      "location": {
+        "latitude": 26.367805,
+        "longitude": 43.9614848
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.747128963470459,
+        "scraped_at": "2025-09-12T00:03:55.801064"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-hokair-time-qurtoba-–-khobar",
+      "name": "Al Hokair Time Qurtoba – Khobar",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/c8f77d9fea92e0656c9c2d2e092c908a.jpg",
+      "property_details": {
+        "type_of_property": "Theme Parks/Water Parks/Festival Centres",
+        "year_built": "2017"
+      },
+      "location": {
+        "latitude": 26.2910345,
+        "longitude": 50.1803913
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/012254ad80be74af26b7ba2f8e18b208.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 2.259680986404419,
+        "scraped_at": "2025-09-12T00:03:58.060854"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-jamea-plaza",
+      "name": "Al Jamea Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/b3630f176aabdec7e51d820b3ff07a12.JPEG",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 40000,
+        "gla_sqm": 26715,
+        "levels": 2,
+        "car_parks": "1007",
+        "retail_outlets": "131",
+        "year_built": "2005 Oct",
+        "anchor_tenants": "Hyper Panda, Al Hokair Fun Zone, Cinepolis Cinema, H&M, STC",
+        "owner_company": "Kinan International for Real Estate Development Co.",
+        "developer_company_name": "Kinan International for Real Estate Development Co.",
+        "managing_agent": "Kinan International for Real Estate Development Co.",
+        "leasing_agent": "Kinan International for Real Estate Development Co."
+      },
+      "location": {
+        "latitude": 21.4826664,
+        "longitude": 39.24202409999999
+      },
+      "tenants": [
+        {
+          "name": "Hyper Panda",
+          "category": "other"
+        },
+        {
+          "name": "Al Hokair Fun Zone",
+          "category": "other"
+        },
+        {
+          "name": "Cinepolis Cinema",
+          "category": "other"
+        },
+        {
+          "name": "H&M",
+          "category": "fashion"
+        },
+        {
+          "name": "STC",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/pictures/profile/pimage-1325-333-photo.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.5149610042572021,
+        "scraped_at": "2025-09-12T00:04:01.312022"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-jawhara-mall",
+      "name": "Al Jawhara Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/ea9cc6286cbebf6bc2fe6d2acf0ce6d5.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 191210,
+        "gla_sqm": 80000,
+        "levels": 3,
+        "car_parks": "2,500",
+        "retail_outlets": "290",
+        "year_built": "2022",
+        "anchor_tenants": "Hypermarket, Jarir Bookstore, Department Stores, Cinemas, Family Entertainment Centre",
+        "owner_company": "Al Jawhara Al Kubra Real Estate Development and Investment Company",
+        "developer_company_name": "Mohammad Al Habib Real Estate Co.",
+        "leasing_agent": "Mohammad Al Habib Real Estate Investment Company",
+        "main_architects": "Rumoz",
+        "main_consultant": "Arch Center",
+        "main_contractor": "Nesma Trading Co. Ltd.",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "Retail Consulting Group",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 21.7741972,
+        "longitude": 39.1632754
+      },
+      "tenants": [
+        {
+          "name": "Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Jarir Bookstore",
+          "category": "other"
+        },
+        {
+          "name": "Department Stores",
+          "category": "other"
+        },
+        {
+          "name": "Cinemas",
+          "category": "other"
+        },
+        {
+          "name": "Family Entertainment Centre",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.8335609436035156,
+        "scraped_at": "2025-09-12T00:04:02.549452"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-jimi-mall",
+      "name": "Al Jimi Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/4f0dc68a949df4e32ca704e49610669c.jpeg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "gla_sqm": 78000,
+        "levels": 3,
+        "car_parks": "2200",
+        "retail_outlets": "200",
+        "year_built": "2001",
+        "anchor_tenants": "Carrefour, Sephora, Paris Gallery, Virgin Megastore, Vox Cinemas",
+        "owner_company": "Aldar Properties PJSC",
+        "developer_company_name": "Aldar Properties PJSC",
+        "managing_agent": "Aldar Properties PJSC",
+        "leasing_agent": "Aldar Properties PJSC"
+      },
+      "location": {
+        "latitude": 24.2437259,
+        "longitude": 55.7267369
+      },
+      "tenants": [
+        {
+          "name": "Carrefour",
+          "category": "hypermarket"
+        },
+        {
+          "name": "Sephora",
+          "category": "fashion"
+        },
+        {
+          "name": "Paris Gallery",
+          "category": "other"
+        },
+        {
+          "name": "Virgin Megastore",
+          "category": "other"
+        },
+        {
+          "name": "Vox Cinemas",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/1dabcdc5b92b902f4e906a218c145265.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.7005271911621094,
+        "scraped_at": "2025-09-12T00:04:04.391042"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-jouf-center",
+      "name": "Al Jouf Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/096962025bb5a7a4a018614eafdbb3ac.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 25000,
+        "gla_sqm": 18000,
+        "levels": 2,
+        "car_parks": "200",
+        "retail_outlets": "133",
+        "year_built": "2010",
+        "anchor_tenants": "Carrefour, SACO, Magic Planet, Mcdonalds, Oud Milano",
+        "owner_company": "AL Jouf Real Estate Company",
+        "developer_company_name": "AL Jouf Real Estate Company",
+        "managing_agent": "Eadarah",
+        "leasing_agent": "Eadarah",
+        "main_consultant": "Khouzam Consultant",
+        "main_contractor": "AL Kayid Brothers Company"
+      },
+      "location": {
+        "latitude": 29.9786992,
+        "longitude": 40.2145567
+      },
+      "tenants": [
+        {
+          "name": "Carrefour",
+          "category": "hypermarket"
+        },
+        {
+          "name": "SACO",
+          "category": "other"
+        },
+        {
+          "name": "Magic Planet",
+          "category": "other"
+        },
+        {
+          "name": "Mcdonalds",
+          "category": "food"
+        },
+        {
+          "name": "Oud Milano",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/6d1aa5032f3b1b6a38499079b33ab6b6.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.6364588737487793,
+        "scraped_at": "2025-09-12T00:04:06.568352"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-jouf-plaza",
+      "name": "Al Jouf Plaza",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/6d1aa5032f3b1b6a38499079b33ab6b6.jpg",
+      "property_details": {
+        "type_of_property": "Regional Centre",
+        "mall_size_sqm": 55000,
+        "gla_sqm": 34300,
+        "levels": 2,
+        "car_parks": "1,200",
+        "retail_outlets": "175",
+        "year_built": "2017 Oct",
+        "anchor_tenants": "Carrefour, Hypermarket, SACO",
+        "owner_company": "AL Jouf Real Estate Company",
+        "developer_company_name": "AL Jouf Real Estate Company",
+        "managing_agent": "Eadarah",
+        "leasing_agent": "Eadarah",
+        "main_consultant": "AL Jouaid Consultant",
+        "main_contractor": "AL Kayid Brothers Company"
+      },
+      "location": {
+        "latitude": 29.87800309999999,
+        "longitude": 40.1043057
+      },
+      "tenants": [
+        {
+          "name": "Carrefour",
+          "category": "hypermarket"
+        },
+        {
+          "name": "Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "SACO",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/096962025bb5a7a4a018614eafdbb3ac.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 1.5390729904174805,
+        "scraped_at": "2025-09-12T00:04:11.194636"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khail-avenue",
+      "name": "Al Khail Avenue",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/0fd22b4dde3389dcabcbcf45a5f38a77.jpg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 185000,
+        "gla_sqm": 111000,
+        "car_parks": "4000",
+        "retail_outlets": "350",
+        "year_built": "2019 Q1",
+        "anchor_tenants": "Waitrose supermarket, Home Centre, Centrepoint , Fun City, Debenhams",
+        "owner_company": "Nakheel Malls",
+        "developer_company_name": "Nakheel PJSC"
+      },
+      "location": {
+        "latitude": 25.0529007,
+        "longitude": 55.1940995
+      },
+      "tenants": [
+        {
+          "name": "Waitrose supermarket",
+          "category": "other"
+        },
+        {
+          "name": "Home Centre",
+          "category": "home_improvement"
+        },
+        {
+          "name": "Centrepoint",
+          "category": "department_store"
+        },
+        {
+          "name": "Fun City",
+          "category": "entertainment"
+        },
+        {
+          "name": "Debenhams",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/ac527b90973c88f651e4ef4d6daab1bf.jpeg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.8459219932556152,
+        "scraped_at": "2025-09-12T00:04:12.621684"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khaleej-center",
+      "name": "Al Khaleej Center",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/85d2ba9e2e5b78966ad4d4b49f6cf501.jpg",
+      "property_details": {
+        "type_of_property": "Convenience Centre",
+        "mall_size_sqm": 3250,
+        "gla_sqm": 2000,
+        "levels": 1,
+        "retail_outlets": "9",
+        "year_built": "2010 Apr",
+        "anchor_tenants": "McDonald's",
+        "owner_company": "Unified Real Estate Development",
+        "developer_company_name": "Unified Real Estate Development",
+        "managing_agent": "UAPM - Unified Asset & Property Management",
+        "leasing_agent": "UAPM - Unified Asset & Property Management"
+      },
+      "location": {
+        "latitude": 26.4429298,
+        "longitude": 50.1183622
+      },
+      "tenants": [
+        {
+          "name": "McDonald's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/2884143eb4d8c865dc75a6a03dc5a635.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 1,
+      "_scraping_metadata": {
+        "response_time": 2.7172911167144775,
+        "scraped_at": "2025-09-12T00:04:13.685735"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khaleej-centre",
+      "name": "Al Khaleej Centre",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/a5d10d8a3d4c40acc027b06dd3b65a30.jpeg",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 16446,
+        "gla_sqm": 7000,
+        "levels": 3,
+        "car_parks": "300",
+        "retail_outlets": "150",
+        "year_built": "1997",
+        "anchor_tenants": "KFC, McDonalds, Pizza Hut, Hardees, Du, AMER, Indian Consulate",
+        "owner_company": "Al Khaleej Centre LLC",
+        "managing_agent": "Al Khaleej Centre Management Office",
+        "main_architects": "ARTEC - Architectural & Engineering Consultants",
+        "main_consultant": "Middle East Engineering Consultants (MEECON)",
+        "main_contractor": "Transemirates Contracting"
+      },
+      "location": {
+        "latitude": 25.257195,
+        "longitude": 55.2957318
+      },
+      "tenants": [
+        {
+          "name": "KFC",
+          "category": "food"
+        },
+        {
+          "name": "McDonalds",
+          "category": "food"
+        },
+        {
+          "name": "Pizza Hut",
+          "category": "food"
+        },
+        {
+          "name": "Hardees",
+          "category": "other"
+        },
+        {
+          "name": "AMER",
+          "category": "other"
+        },
+        {
+          "name": "Indian Consulate",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/display/a5d10d8a3d4c40acc027b06dd3b65a30.jpeg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.644808053970337,
+        "scraped_at": "2025-09-12T00:04:17.052850"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khalil-courtyard-jabal-omar",
+      "name": "Al Khalil Courtyard - Jabal Omar",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/d966a1f96c849ca27f5650e3be761dd7.jpg",
+      "property_details": {
+        "type_of_property": "Convenience Centre",
+        "mall_size_sqm": 19000,
+        "gla_sqm": 1500,
+        "levels": 2,
+        "car_parks": "100",
+        "retail_outlets": "52",
+        "year_built": "2019",
+        "anchor_tenants": "Museum As-Shabee, Arabian Oud, La Casa Pasta, Rosemary Perfumes, Panino's",
+        "owner_company": "Jabal Omar Development Co.",
+        "developer_company_name": "Jabal Omar Development Co.",
+        "managing_agent": "Jabal Omar Development Co.",
+        "leasing_agent": "Jabal Omar Development Co.",
+        "main_architects": "Jabal Omar Development Co.",
+        "main_consultant": "Vision Construction Company -JODP"
+      },
+      "location": {
+        "latitude": 21.4208518,
+        "longitude": 39.8182189
+      },
+      "tenants": [
+        {
+          "name": "Museum As-Shabee",
+          "category": "other"
+        },
+        {
+          "name": "Arabian Oud",
+          "category": "other"
+        },
+        {
+          "name": "La Casa Pasta",
+          "category": "other"
+        },
+        {
+          "name": "Rosemary Perfumes",
+          "category": "other"
+        },
+        {
+          "name": "Panino's",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/948f0aacd28a4d4bab1b85e34a9a0d9a.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 5,
+      "_scraping_metadata": {
+        "response_time": 1.7258312702178955,
+        "scraped_at": "2025-09-12T00:04:18.173586"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khamis-plaza",
+      "name": "Al Khamis Plaza",
+      "external_url": "https://www.alkhamis.biz",
+      "property_details": {
+        "type_of_property": "Convenience Centre",
+        "gla_sqm": 2400,
+        "levels": 4,
+        "car_parks": "120",
+        "retail_outlets": "30",
+        "year_built": "1994",
+        "anchor_tenants": "Clarks Shoes, Majan Jewellery  , World Shoes",
+        "owner_company": "Mohamed Khamis Mubarak Al Alawi"
+      },
+      "location": {
+        "latitude": 23.612074,
+        "longitude": 58.49656259999999
+      },
+      "tenants": [
+        {
+          "name": "Clarks Shoes",
+          "category": "other"
+        },
+        {
+          "name": "Majan Jewellery",
+          "category": "other"
+        },
+        {
+          "name": "World Shoes",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/ffe4884f70834a9e09a5ec578288f075.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 3,
+      "_scraping_metadata": {
+        "response_time": 2.1397290229797363,
+        "scraped_at": "2025-09-12T00:04:19.426892"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khawaneej-walk",
+      "name": "Al Khawaneej Walk",
+      "external_url": "https://alkhawaneejwalk.ae/",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "levels": 1,
+        "year_built": "2020",
+        "owner_company": "Dubai Holding",
+        "developer_company_name": "Meraas",
+        "managing_agent": "Meraas",
+        "leasing_agent": "Meraas"
+      },
+      "location": {
+        "latitude": 25.2335338,
+        "longitude": 55.4730985
+      },
+      "tenants": [],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/images/twitterX.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 0,
+      "_scraping_metadata": {
+        "response_time": 1.5600831508636475,
+        "scraped_at": "2025-09-12T00:04:21.841063"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khiran",
+      "name": "Al Khiran",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/79315fd62be73249523e6531e0c72277.jpg",
+      "property_details": {
+        "type_of_property": "Super Regional Centre",
+        "mall_size_sqm": 350000,
+        "gla_sqm": 70000,
+        "levels": 2,
+        "car_parks": "3,700",
+        "retail_outlets": "300",
+        "year_built": "2021 Q4",
+        "anchor_tenants": "IKEA, Cinescape, Lulu Hypermarket, Tamdeen Entertainment",
+        "owner_company": "Tamdeen Group",
+        "developer_company_name": "Tamdeen Group",
+        "managing_agent": "Tamdeen Mall Management  K.S.C.C",
+        "leasing_agent": "Tamdeen Group",
+        "main_architects": "Callison RTKL, UK",
+        "main_consultant": "SSH",
+        "main_contractor": "Al Ghanim Contractors"
+      },
+      "location": {
+        "latitude": 28.6691107,
+        "longitude": 48.36888339999999
+      },
+      "tenants": [
+        {
+          "name": "IKEA",
+          "category": "other"
+        },
+        {
+          "name": "Cinescape",
+          "category": "other"
+        },
+        {
+          "name": "Lulu Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Tamdeen Entertainment",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/fb63c4b01036beff932a2eb6118336da.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 4,
+      "_scraping_metadata": {
+        "response_time": 1.7709770202636719,
+        "scraped_at": "2025-09-12T00:04:24.740846"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khor-mall",
+      "name": "Al Khor Mall",
+      "external_url": "https://ik.imagekit.io/mecsrweb/images/photos/main/f51f4cb1bb691fd5f9e6804c748f54eb.jpg",
+      "property_details": {
+        "type_of_property": "Community Centre",
+        "mall_size_sqm": 36081,
+        "gla_sqm": 25000,
+        "levels": 2,
+        "car_parks": "1500",
+        "retail_outlets": "105",
+        "year_built": "2012 Jul",
+        "anchor_tenants": "Lulu Hypermarket, Fun Ville, Cineco3, Splash, LifeStyle, Daiso",
+        "owner_company": "Line Investments and Property – Sole Proprietorship LLC",
+        "managing_agent": "Line Investments and Property – Sole Proprietorship LLC",
+        "leasing_agent": "Line Investments and Property – Sole Proprietorship LLC",
+        "main_contractor": "Industrial Services Group Qatar"
+      },
+      "location": {
+        "latitude": 25.675277,
+        "longitude": 51.5022013
+      },
+      "tenants": [
+        {
+          "name": "Lulu Hypermarket",
+          "category": "other"
+        },
+        {
+          "name": "Fun Ville",
+          "category": "other"
+        },
+        {
+          "name": "Cineco3",
+          "category": "other"
+        },
+        {
+          "name": "Splash",
+          "category": "other"
+        },
+        {
+          "name": "LifeStyle",
+          "category": "other"
+        },
+        {
+          "name": "Daiso",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/d55af80a29b7ef060e1d5a2d7d30b9d0.jpg",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 6,
+      "_scraping_metadata": {
+        "response_time": 1.7536640167236328,
+        "scraped_at": "2025-09-12T00:04:25.781762"
+      }
+    },
+    {
+      "url": "https://www.mecsr.org/directory-shopping-centres/al-khuwair-square",
+      "name": "Al Khuwair Square",
+      "external_url": "https://www.bayaninvestment.com",
+      "property_details": {
+        "type_of_property": "Neighborhood Centre/Strip Malls",
+        "mall_size_sqm": 5615,
+        "gla_sqm": 3599,
+        "levels": 2,
+        "car_parks": "173",
+        "retail_outlets": "36",
+        "year_built": "2020 Jun",
+        "anchor_tenants": "McDonalds, Bastah Majan Café,",
+        "owner_company": "Bayan Investment Houce LLC",
+        "developer_company_name": "Bayan Investment Houce LLC",
+        "managing_agent": "Asawer Real Estate",
+        "leasing_agent": "Asawer Real Estate",
+        "main_architects": "Architecture City",
+        "main_consultant": "Design Unit",
+        "main_contractor": "Rawabi Bousher",
+        "retail_solutions_provider_service_provider_footfall_retail_analytics_technology_others": "Bayan Investment Houce LLC",
+        "retail_solutions_provider": "- Service Provider (Footfall / Retail Analytics / Technology / Others)"
+      },
+      "location": {
+        "latitude": 23.5968007,
+        "longitude": 58.4340332
+      },
+      "tenants": [
+        {
+          "name": "McDonalds",
+          "category": "food"
+        },
+        {
+          "name": "Bastah Majan Café",
+          "category": "other"
+        }
+      ],
+      "first_image": "https://ik.imagekit.io/mecsrweb/images/photos/main/25544813d6c229199564c6eef337df13.png",
+      "mall_type": null,
+      "development_status": "Existing Mall",
+      "total_tenants": 2,
+      "_scraping_metadata": {
+        "response_time": 1.7588989734649658,
+        "scraped_at": "2025-09-12T00:04:27.305292"
+      }
+    }
+  ]
+}

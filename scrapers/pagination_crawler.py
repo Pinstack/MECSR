@@ -5,9 +5,13 @@ Handles paginated page crawling with parallel processing and rate limiting.
 
 from typing import List, Optional, Any, Dict
 import asyncio
+import aiohttp
 from unittest.mock import MagicMock
-from crawl4ai import AsyncWebCrawler
-from crawl4ai.async_configs import BrowserConfig
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 class PaginationCrawler:
@@ -29,19 +33,28 @@ class PaginationCrawler:
         self.endpoint = endpoint
         self.max_concurrent_requests = max_concurrent_requests
 
-        # Browser configuration for respectful scraping
-        self.browser_config = BrowserConfig(
-            headless=True,
-            verbose=False,
-            user_agent="MECSR-Research-Crawler/1.0 (Educational Project)"
-        )
+        # HTTP headers to mimic real browser and avoid blocking
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Cache-Control': 'max-age=0',
+        }
 
-        # Mock rate limiter for now - will be implemented later
-        self.rate_limiter = MagicMock()
+        # Connector will be created when session is created
+        self.session = None
+        self.connector = None
 
     async def crawl_single_page(self, url: str) -> Optional[Dict[str, Any]]:
         """
-        Crawl a single page using Crawl4AI and return structured result
+        Crawl a single page using aiohttp for fast HTTP requests
 
         Args:
             url: URL to crawl
@@ -53,37 +66,58 @@ class PaginationCrawler:
         if not url or not isinstance(url, str) or not url.startswith(('http://', 'https://')):
             return None
 
-        try:
-            async with AsyncWebCrawler(config=self.browser_config) as crawler:
-                result = await crawler.arun(url=url)
+        # Create session and connector if not exists
+        if self.session is None:
+            if self.connector is None:
+                self.connector = aiohttp.TCPConnector(
+                    limit=self.max_concurrent_requests * 2,  # Connection pool size
+                    limit_per_host=self.max_concurrent_requests,
+                    ttl_dns_cache=300,  # DNS cache for 5 minutes
+                    use_dns_cache=True,
+                    keepalive_timeout=60,
+                )
+            self.session = aiohttp.ClientSession(
+                connector=self.connector,
+                headers=self.headers,
+                timeout=aiohttp.ClientTimeout(total=30, connect=10)
+            )
 
-                # Check if crawl was successful
-                if result.success:
+        import time
+        start_time = time.time()
+
+        try:
+            async with self.session.get(url) as response:
+                response_time = time.time() - start_time
+
+                if response.status == 200:
+                    html = await response.text()
                     return {
                         "url": url,
                         "success": True,
-                        "html": result.html,
-                        "status_code": getattr(result, 'status_code', 200),
-                        "response_time": getattr(result, 'response_time', None),
-                        "links_found": len(result.links) if hasattr(result, 'links') else 0
+                        "html": html,
+                        "status_code": response.status,
+                        "response_time": response_time,
+                        "content_length": len(html),
+                        "content_type": response.headers.get('content-type', '')
                     }
                 else:
                     return {
                         "url": url,
                         "success": False,
-                        "error": getattr(result, 'error_message', 'Unknown error'),
-                        "status_code": getattr(result, 'status_code', None)
+                        "error": f"HTTP {response.status}",
+                        "status_code": response.status,
+                        "response_time": response_time
                     }
 
         except Exception as e:
-            # Handle various exceptions (network errors, timeouts, etc.)
+            response_time = time.time() - start_time
             error_type = type(e).__name__
             return {
                 "url": url,
                 "success": False,
                 "error": str(e),
                 "error_type": error_type,
-                "status_code": None
+                "response_time": response_time
             }
 
     def generate_page_url(self, page_number: int) -> str:
@@ -164,3 +198,12 @@ class PaginationCrawler:
                 valid_results.append(result)
 
         return valid_results
+
+    async def cleanup(self):
+        """Clean up aiohttp session and connector"""
+        if self.session and not self.session.closed:
+            await self.session.close()
+            self.session = None
+        if self.connector and not self.connector.closed:
+            await self.connector.close()
+            self.connector = None
