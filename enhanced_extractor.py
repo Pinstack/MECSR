@@ -101,7 +101,7 @@ class EnhancedDataExtractor:
             basic_info['status'] = status_elem.get_text(strip=True)
 
         # Address
-        address_elem = soup.find('span', class_=lambda x: x and 'fa-map-marker' in str(x))
+        address_elem = soup.find('div', class_=lambda x: x and 'post_location_map' in str(x))
         if address_elem:
             address_text = address_elem.get_text(strip=True)
             if len(address_text) > 10:
@@ -301,7 +301,7 @@ class EnhancedDataExtractor:
 
         # Extract address components
         address_text = None
-        address_elem = soup.find('span', class_=lambda x: x and 'fa-map-marker' in str(x))
+        address_elem = soup.find('div', class_=lambda x: x and 'post_location_map' in str(x))
         if address_elem:
             address_text = address_elem.get_text(strip=True)
 
@@ -693,7 +693,7 @@ class EnhancedDataExtractor:
                     continue
 
         # Extract address
-        address_elem = soup.find('span', class_=lambda x: x and 'fa-map-marker' in str(x))
+        address_elem = soup.find('div', class_=lambda x: x and 'post_location_map' in str(x))
         if address_elem:
             address_text = address_elem.get_text(strip=True)
             if len(address_text) > 10:
